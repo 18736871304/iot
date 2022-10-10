@@ -1,0 +1,1461 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'D:\\node\\node.exe',
+1 verbose cli   'C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'cnpm',
+1 verbose cli   '--registry=https://registry.npm.taobao.org'
+1 verbose cli ]
+2 info using npm@3.8.6
+3 info using node@v16.17.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData cnpm
+8 silly fetchNamedPackageData cnpm
+9 silly mapToRegistry name cnpm
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npm.taobao.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'cnpm',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   name: 'cnpm',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag'
+12 silly mapToRegistry }
+13 silly mapToRegistry uri https://registry.npm.taobao.org/cnpm
+14 verbose request uri https://registry.npm.taobao.org/cnpm
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 23:20:57
+17 verbose request id eee66f65a8d3272a
+18 http request GET https://registry.npm.taobao.org/cnpm
+19 http 200 https://registry.npm.taobao.org/cnpm
+20 verbose headers {
+20 verbose headers   server: 'Tengine',
+20 verbose headers   'content-type': 'application/json; charset=utf-8',
+20 verbose headers   'content-length': '35595',
+20 verbose headers   connection: 'keep-alive',
+20 verbose headers   'strict-transport-security': 'max-age=5184000',
+20 verbose headers   date: 'Wed, 07 Sep 2022 15:20:57 GMT',
+20 verbose headers   vary: 'Origin, Accept, Accept-Encoding',
+20 verbose headers   'request-id': 'ac4142b0-2ec0-11ed-a0b0-930552faf8f9',
+20 verbose headers   'cache-control': 'public, max-age=300',
+20 verbose headers   'x-frame-options': 'SAMEORIGIN',
+20 verbose headers   'x-xss-protection': '1; mode=block',
+20 verbose headers   'x-content-type-options': 'nosniff',
+20 verbose headers   'x-download-options': 'noopen',
+20 verbose headers   'x-readtime': '0.951',
+20 verbose headers   via: 'cn1587.l1, kunlun9.cn1587, l2cn1837.l2, cache58.l2cn1837, npmmirror-x86-2022012802002, cache58.l2cn1837[25,24,304-0,M], cache80.l2cn1837[26,0], kunlun9.cn1587[39,49,200-0,H], kunlun10.cn1587[52,0]',
+20 verbose headers   etag: 'W/"c6cfa2728fca852631ab9b1b820dbbabc8d468fa"',
+20 verbose headers   'ali-swift-global-savetime': '1662564057',
+20 verbose headers   'content-encoding': 'gzip',
+20 verbose headers   age: '0',
+20 verbose headers   'x-cache': 'HIT TCP_REFRESH_HIT dirn:6:473602156',
+20 verbose headers   'x-swift-savetime': 'Wed, 07 Sep 2022 15:20:57 GMT',
+20 verbose headers   'x-swift-cachetime': '120',
+20 verbose headers   'timing-allow-origin': '*',
+20 verbose headers   eagleid: 'dd0f411e16625640576618887e'
+20 verbose headers }
+21 silly get cb [
+21 silly get   200,
+21 silly get   {
+21 silly get     server: 'Tengine',
+21 silly get     'content-type': 'application/json; charset=utf-8',
+21 silly get     'content-length': '35595',
+21 silly get     connection: 'keep-alive',
+21 silly get     'strict-transport-security': 'max-age=5184000',
+21 silly get     date: 'Wed, 07 Sep 2022 15:20:57 GMT',
+21 silly get     vary: 'Origin, Accept, Accept-Encoding',
+21 silly get     'request-id': 'ac4142b0-2ec0-11ed-a0b0-930552faf8f9',
+21 silly get     'cache-control': 'public, max-age=300',
+21 silly get     'x-frame-options': 'SAMEORIGIN',
+21 silly get     'x-xss-protection': '1; mode=block',
+21 silly get     'x-content-type-options': 'nosniff',
+21 silly get     'x-download-options': 'noopen',
+21 silly get     'x-readtime': '0.951',
+21 silly get     via: 'cn1587.l1, kunlun9.cn1587, l2cn1837.l2, cache58.l2cn1837, npmmirror-x86-2022012802002, cache58.l2cn1837[25,24,304-0,M], cache80.l2cn1837[26,0], kunlun9.cn1587[39,49,200-0,H], kunlun10.cn1587[52,0]',
+21 silly get     etag: 'W/"c6cfa2728fca852631ab9b1b820dbbabc8d468fa"',
+21 silly get     'ali-swift-global-savetime': '1662564057',
+21 silly get     'content-encoding': 'gzip',
+21 silly get     age: '0',
+21 silly get     'x-cache': 'HIT TCP_REFRESH_HIT dirn:6:473602156',
+21 silly get     'x-swift-savetime': 'Wed, 07 Sep 2022 15:20:57 GMT',
+21 silly get     'x-swift-cachetime': '120',
+21 silly get     'timing-allow-origin': '*',
+21 silly get     eagleid: 'dd0f411e16625640576618887e'
+21 silly get   }
+21 silly get ]
+22 verbose get saving cnpm to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npm.taobao.org\cnpm\.cache.json
+23 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+24 silly install normalizeTree
+25 silly loadCurrentTree Finishing
+26 silly loadIdealTree Starting
+27 silly install loadIdealTree
+28 silly cloneCurrentTree Starting
+29 silly install cloneCurrentTreeToIdealTree
+30 silly cloneCurrentTree Finishing
+31 silly loadShrinkwrap Starting
+32 silly install loadShrinkwrap
+33 silly loadShrinkwrap Finishing
+34 silly loadAllDepsIntoIdealTree Starting
+35 silly install loadAllDepsIntoIdealTree
+36 silly resolveWithNewModule cnpm@8.3.0 checking installable status
+37 silly cache add args [ 'cnpm', null ]
+38 verbose cache add spec cnpm
+39 silly cache add parsed spec Result {
+39 silly cache add   raw: 'cnpm',
+39 silly cache add   scope: null,
+39 silly cache add   name: 'cnpm',
+39 silly cache add   rawSpec: '',
+39 silly cache add   spec: 'latest',
+39 silly cache add   type: 'tag'
+39 silly cache add }
+40 silly addNamed cnpm@latest
+41 verbose addNamed "latest" is being treated as a dist-tag for cnpm
+42 info addNameTag [ 'cnpm', 'latest' ]
+43 silly mapToRegistry name cnpm
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://registry.npm.taobao.org/
+46 silly mapToRegistry data Result {
+46 silly mapToRegistry   raw: 'cnpm',
+46 silly mapToRegistry   scope: null,
+46 silly mapToRegistry   name: 'cnpm',
+46 silly mapToRegistry   rawSpec: '',
+46 silly mapToRegistry   spec: 'latest',
+46 silly mapToRegistry   type: 'tag'
+46 silly mapToRegistry }
+47 silly mapToRegistry uri https://registry.npm.taobao.org/cnpm
+48 verbose addNameTag registry:https://registry.npm.taobao.org/cnpm not in flight; fetching
+49 verbose get https://registry.npm.taobao.org/cnpm not expired, no request
+50 silly addNameTag next cb for cnpm with tag latest
+51 silly addNamed cnpm@8.3.0
+52 verbose addNamed "8.3.0" is a plain semver version for cnpm
+53 silly mapToRegistry name cnpm
+54 silly mapToRegistry using default registry
+55 silly mapToRegistry registry https://registry.npm.taobao.org/
+56 silly mapToRegistry data Result {
+56 silly mapToRegistry   raw: 'cnpm',
+56 silly mapToRegistry   scope: null,
+56 silly mapToRegistry   name: 'cnpm',
+56 silly mapToRegistry   rawSpec: '',
+56 silly mapToRegistry   spec: 'latest',
+56 silly mapToRegistry   type: 'tag'
+56 silly mapToRegistry }
+57 silly mapToRegistry uri https://registry.npm.taobao.org/cnpm
+58 verbose addRemoteTarball https://registry.npmmirror.com/cnpm/-/cnpm-8.3.0.tgz not in flight; adding
+59 verbose addRemoteTarball [
+59 verbose addRemoteTarball   'https://registry.npmmirror.com/cnpm/-/cnpm-8.3.0.tgz',
+59 verbose addRemoteTarball   '8f6a7912cf886127f139ed1f78afafe21942f250'
+59 verbose addRemoteTarball ]
+60 info retry fetch attempt 1 at 23:20:57
+61 info attempt registry request try #1 at 23:20:57
+62 http fetch GET https://registry.npmmirror.com/cnpm/-/cnpm-8.3.0.tgz
+63 http fetch 200 https://registry.npmmirror.com/cnpm/-/cnpm-8.3.0.tgz
+64 silly fetchAndShaCheck shasum 8f6a7912cf886127f139ed1f78afafe21942f250
+65 verbose addTmpTarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-3740-dd494264\registry.npmmirror.com\cnpm\-\cnpm-8.3.0.tgz not in flight; adding
+66 verbose addTmpTarball already have metadata; skipping unpack for cnpm@8.3.0
+67 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+68 silly cache afterAdd cnpm@8.3.0
+69 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\cnpm\8.3.0\package\package.json not in flight; writing
+70 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+71 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\cnpm\8.3.0\package\package.json written
+72 silly fetchNamedPackageData auto-correct
+73 silly mapToRegistry name auto-correct
+74 silly mapToRegistry using default registry
+75 silly mapToRegistry registry https://registry.npm.taobao.org/
+76 silly mapToRegistry data Result {
+76 silly mapToRegistry   raw: 'auto-correct',
+76 silly mapToRegistry   scope: null,
+76 silly mapToRegistry   name: 'auto-correct',
+76 silly mapToRegistry   rawSpec: '',
+76 silly mapToRegistry   spec: 'latest',
+76 silly mapToRegistry   type: 'tag'
+76 silly mapToRegistry }
+77 silly mapToRegistry uri https://registry.npm.taobao.org/auto-correct
+78 silly fetchNamedPackageData bagpipe
+79 silly mapToRegistry name bagpipe
+80 silly mapToRegistry using default registry
+81 silly mapToRegistry registry https://registry.npm.taobao.org/
+82 silly mapToRegistry data Result {
+82 silly mapToRegistry   raw: 'bagpipe',
+82 silly mapToRegistry   scope: null,
+82 silly mapToRegistry   name: 'bagpipe',
+82 silly mapToRegistry   rawSpec: '',
+82 silly mapToRegistry   spec: 'latest',
+82 silly mapToRegistry   type: 'tag'
+82 silly mapToRegistry }
+83 silly mapToRegistry uri https://registry.npm.taobao.org/bagpipe
+84 silly fetchNamedPackageData commander
+85 silly mapToRegistry name commander
+86 silly mapToRegistry using default registry
+87 silly mapToRegistry registry https://registry.npm.taobao.org/
+88 silly mapToRegistry data Result {
+88 silly mapToRegistry   raw: 'commander',
+88 silly mapToRegistry   scope: null,
+88 silly mapToRegistry   name: 'commander',
+88 silly mapToRegistry   rawSpec: '',
+88 silly mapToRegistry   spec: 'latest',
+88 silly mapToRegistry   type: 'tag'
+88 silly mapToRegistry }
+89 silly mapToRegistry uri https://registry.npm.taobao.org/commander
+90 silly fetchNamedPackageData cross-spawn
+91 silly mapToRegistry name cross-spawn
+92 silly mapToRegistry using default registry
+93 silly mapToRegistry registry https://registry.npm.taobao.org/
+94 silly mapToRegistry data Result {
+94 silly mapToRegistry   raw: 'cross-spawn',
+94 silly mapToRegistry   scope: null,
+94 silly mapToRegistry   name: 'cross-spawn',
+94 silly mapToRegistry   rawSpec: '',
+94 silly mapToRegistry   spec: 'latest',
+94 silly mapToRegistry   type: 'tag'
+94 silly mapToRegistry }
+95 silly mapToRegistry uri https://registry.npm.taobao.org/cross-spawn
+96 silly fetchNamedPackageData debug
+97 silly mapToRegistry name debug
+98 silly mapToRegistry using default registry
+99 silly mapToRegistry registry https://registry.npm.taobao.org/
+100 silly mapToRegistry data Result {
+100 silly mapToRegistry   raw: 'debug',
+100 silly mapToRegistry   scope: null,
+100 silly mapToRegistry   name: 'debug',
+100 silly mapToRegistry   rawSpec: '',
+100 silly mapToRegistry   spec: 'latest',
+100 silly mapToRegistry   type: 'tag'
+100 silly mapToRegistry }
+101 silly mapToRegistry uri https://registry.npm.taobao.org/debug
+102 silly fetchNamedPackageData giturl
+103 silly mapToRegistry name giturl
+104 silly mapToRegistry using default registry
+105 silly mapToRegistry registry https://registry.npm.taobao.org/
+106 silly mapToRegistry data Result {
+106 silly mapToRegistry   raw: 'giturl',
+106 silly mapToRegistry   scope: null,
+106 silly mapToRegistry   name: 'giturl',
+106 silly mapToRegistry   rawSpec: '',
+106 silly mapToRegistry   spec: 'latest',
+106 silly mapToRegistry   type: 'tag'
+106 silly mapToRegistry }
+107 silly mapToRegistry uri https://registry.npm.taobao.org/giturl
+108 silly fetchNamedPackageData ini
+109 silly mapToRegistry name ini
+110 silly mapToRegistry using default registry
+111 silly mapToRegistry registry https://registry.npm.taobao.org/
+112 silly mapToRegistry data Result {
+112 silly mapToRegistry   raw: 'ini',
+112 silly mapToRegistry   scope: null,
+112 silly mapToRegistry   name: 'ini',
+112 silly mapToRegistry   rawSpec: '',
+112 silly mapToRegistry   spec: 'latest',
+112 silly mapToRegistry   type: 'tag'
+112 silly mapToRegistry }
+113 silly mapToRegistry uri https://registry.npm.taobao.org/ini
+114 silly fetchNamedPackageData npm
+115 silly mapToRegistry name npm
+116 silly mapToRegistry using default registry
+117 silly mapToRegistry registry https://registry.npm.taobao.org/
+118 silly mapToRegistry data Result {
+118 silly mapToRegistry   raw: 'npm',
+118 silly mapToRegistry   scope: null,
+118 silly mapToRegistry   name: 'npm',
+118 silly mapToRegistry   rawSpec: '',
+118 silly mapToRegistry   spec: 'latest',
+118 silly mapToRegistry   type: 'tag'
+118 silly mapToRegistry }
+119 silly mapToRegistry uri https://registry.npm.taobao.org/npm
+120 silly fetchNamedPackageData npm-request
+121 silly mapToRegistry name npm-request
+122 silly mapToRegistry using default registry
+123 silly mapToRegistry registry https://registry.npm.taobao.org/
+124 silly mapToRegistry data Result {
+124 silly mapToRegistry   raw: 'npm-request',
+124 silly mapToRegistry   scope: null,
+124 silly mapToRegistry   name: 'npm-request',
+124 silly mapToRegistry   rawSpec: '',
+124 silly mapToRegistry   spec: 'latest',
+124 silly mapToRegistry   type: 'tag'
+124 silly mapToRegistry }
+125 silly mapToRegistry uri https://registry.npm.taobao.org/npm-request
+126 silly fetchNamedPackageData npminstall
+127 silly mapToRegistry name npminstall
+128 silly mapToRegistry using default registry
+129 silly mapToRegistry registry https://registry.npm.taobao.org/
+130 silly mapToRegistry data Result {
+130 silly mapToRegistry   raw: 'npminstall',
+130 silly mapToRegistry   scope: null,
+130 silly mapToRegistry   name: 'npminstall',
+130 silly mapToRegistry   rawSpec: '',
+130 silly mapToRegistry   spec: 'latest',
+130 silly mapToRegistry   type: 'tag'
+130 silly mapToRegistry }
+131 silly mapToRegistry uri https://registry.npm.taobao.org/npminstall
+132 silly fetchNamedPackageData open
+133 silly mapToRegistry name open
+134 silly mapToRegistry using default registry
+135 silly mapToRegistry registry https://registry.npm.taobao.org/
+136 silly mapToRegistry data Result {
+136 silly mapToRegistry   raw: 'open',
+136 silly mapToRegistry   scope: null,
+136 silly mapToRegistry   name: 'open',
+136 silly mapToRegistry   rawSpec: '',
+136 silly mapToRegistry   spec: 'latest',
+136 silly mapToRegistry   type: 'tag'
+136 silly mapToRegistry }
+137 silly mapToRegistry uri https://registry.npm.taobao.org/open
+138 silly fetchNamedPackageData urllib
+139 silly mapToRegistry name urllib
+140 silly mapToRegistry using default registry
+141 silly mapToRegistry registry https://registry.npm.taobao.org/
+142 silly mapToRegistry data Result {
+142 silly mapToRegistry   raw: 'urllib',
+142 silly mapToRegistry   scope: null,
+142 silly mapToRegistry   name: 'urllib',
+142 silly mapToRegistry   rawSpec: '',
+142 silly mapToRegistry   spec: 'latest',
+142 silly mapToRegistry   type: 'tag'
+142 silly mapToRegistry }
+143 silly mapToRegistry uri https://registry.npm.taobao.org/urllib
+144 verbose request uri https://registry.npm.taobao.org/auto-correct
+145 verbose request no auth needed
+146 info attempt registry request try #1 at 23:20:57
+147 http request GET https://registry.npm.taobao.org/auto-correct
+148 verbose request uri https://registry.npm.taobao.org/bagpipe
+149 verbose request no auth needed
+150 info attempt registry request try #1 at 23:20:57
+151 http request GET https://registry.npm.taobao.org/bagpipe
+152 verbose request uri https://registry.npm.taobao.org/commander
+153 verbose request no auth needed
+154 info attempt registry request try #1 at 23:20:57
+155 http request GET https://registry.npm.taobao.org/commander
+156 verbose request uri https://registry.npm.taobao.org/cross-spawn
+157 verbose request no auth needed
+158 info attempt registry request try #1 at 23:20:57
+159 http request GET https://registry.npm.taobao.org/cross-spawn
+160 verbose request uri https://registry.npm.taobao.org/debug
+161 verbose request no auth needed
+162 info attempt registry request try #1 at 23:20:57
+163 http request GET https://registry.npm.taobao.org/debug
+164 verbose request uri https://registry.npm.taobao.org/giturl
+165 verbose request no auth needed
+166 info attempt registry request try #1 at 23:20:57
+167 http request GET https://registry.npm.taobao.org/giturl
+168 verbose request uri https://registry.npm.taobao.org/ini
+169 verbose request no auth needed
+170 info attempt registry request try #1 at 23:20:57
+171 http request GET https://registry.npm.taobao.org/ini
+172 verbose request uri https://registry.npm.taobao.org/npm
+173 verbose request no auth needed
+174 info attempt registry request try #1 at 23:20:57
+175 http request GET https://registry.npm.taobao.org/npm
+176 verbose request uri https://registry.npm.taobao.org/npm-request
+177 verbose request no auth needed
+178 info attempt registry request try #1 at 23:20:57
+179 http request GET https://registry.npm.taobao.org/npm-request
+180 verbose request uri https://registry.npm.taobao.org/npminstall
+181 verbose request no auth needed
+182 info attempt registry request try #1 at 23:20:57
+183 http request GET https://registry.npm.taobao.org/npminstall
+184 verbose request uri https://registry.npm.taobao.org/open
+185 verbose request no auth needed
+186 info attempt registry request try #1 at 23:20:57
+187 http request GET https://registry.npm.taobao.org/open
+188 verbose request uri https://registry.npm.taobao.org/urllib
+189 verbose request no auth needed
+190 info attempt registry request try #1 at 23:20:57
+191 http request GET https://registry.npm.taobao.org/urllib
+192 http 200 https://registry.npm.taobao.org/auto-correct
+193 verbose headers {
+193 verbose headers   server: 'Tengine',
+193 verbose headers   'content-type': 'application/json; charset=utf-8',
+193 verbose headers   'content-length': '982',
+193 verbose headers   connection: 'keep-alive',
+193 verbose headers   'strict-transport-security': 'max-age=5184000',
+193 verbose headers   date: 'Wed, 07 Sep 2022 15:20:58 GMT',
+193 verbose headers   vary: 'Origin, Accept, Accept-Encoding',
+193 verbose headers   'request-id': 'ac712c50-2ec0-11ed-8119-698d5efe6caa',
+193 verbose headers   'cache-control': 'public, max-age=300',
+193 verbose headers   'x-frame-options': 'SAMEORIGIN',
+193 verbose headers   'x-xss-protection': '1; mode=block',
+193 verbose headers   'x-content-type-options': 'nosniff',
+193 verbose headers   'x-download-options': 'noopen',
+193 verbose headers   'x-readtime': '0.783',
+193 verbose headers   via: 'cn1587.l1, kunlun10.cn1587, l2cn1837.l2, cache31.l2cn1837, npmmirror-x86-20220823002, cache31.l2cn1837[24,24,304-0,M], cache18.l2cn1837[25,0], kunlun10.cn1587[39,39,200-0,H], kunlun10.cn1587[42,0]',
+193 verbose headers   etag: 'W/"a3d3871ff5af93fbc00950a4614a551280c0f65e"',
+193 verbose headers   'ali-swift-global-savetime': '1662564058',
+193 verbose headers   'content-encoding': 'gzip',
+193 verbose headers   age: '0',
+193 verbose headers   'x-cache': 'HIT TCP_REFRESH_HIT dirn:0:478803885',
+193 verbose headers   'x-swift-savetime': 'Wed, 07 Sep 2022 15:20:58 GMT',
+193 verbose headers   'x-swift-cachetime': '120',
+193 verbose headers   'timing-allow-origin': '*',
+193 verbose headers   eagleid: 'dd0f411e16625640579831004e'
+193 verbose headers }
+194 silly get cb [
+194 silly get   200,
+194 silly get   {
+194 silly get     server: 'Tengine',
+194 silly get     'content-type': 'application/json; charset=utf-8',
+194 silly get     'content-length': '982',
+194 silly get     connection: 'keep-alive',
+194 silly get     'strict-transport-security': 'max-age=5184000',
+194 silly get     date: 'Wed, 07 Sep 2022 15:20:58 GMT',
+194 silly get     vary: 'Origin, Accept, Accept-Encoding',
+194 silly get     'request-id': 'ac712c50-2ec0-11ed-8119-698d5efe6caa',
+194 silly get     'cache-control': 'public, max-age=300',
+194 silly get     'x-frame-options': 'SAMEORIGIN',
+194 silly get     'x-xss-protection': '1; mode=block',
+194 silly get     'x-content-type-options': 'nosniff',
+194 silly get     'x-download-options': 'noopen',
+194 silly get     'x-readtime': '0.783',
+194 silly get     via: 'cn1587.l1, kunlun10.cn1587, l2cn1837.l2, cache31.l2cn1837, npmmirror-x86-20220823002, cache31.l2cn1837[24,24,304-0,M], cache18.l2cn1837[25,0], kunlun10.cn1587[39,39,200-0,H], kunlun10.cn1587[42,0]',
+194 silly get     etag: 'W/"a3d3871ff5af93fbc00950a4614a551280c0f65e"',
+194 silly get     'ali-swift-global-savetime': '1662564058',
+194 silly get     'content-encoding': 'gzip',
+194 silly get     age: '0',
+194 silly get     'x-cache': 'HIT TCP_REFRESH_HIT dirn:0:478803885',
+194 silly get     'x-swift-savetime': 'Wed, 07 Sep 2022 15:20:58 GMT',
+194 silly get     'x-swift-cachetime': '120',
+194 silly get     'timing-allow-origin': '*',
+194 silly get     eagleid: 'dd0f411e16625640579831004e'
+194 silly get   }
+194 silly get ]
+195 verbose get saving auto-correct to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npm.taobao.org\auto-correct\.cache.json
+196 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+197 silly resolveWithNewModule auto-correct@1.0.0 checking installable status
+198 silly cache add args [ 'auto-correct@^1.0.0', null ]
+199 verbose cache add spec auto-correct@^1.0.0
+200 silly cache add parsed spec Result {
+200 silly cache add   raw: 'auto-correct@^1.0.0',
+200 silly cache add   scope: null,
+200 silly cache add   name: 'auto-correct',
+200 silly cache add   rawSpec: '^1.0.0',
+200 silly cache add   spec: '>=1.0.0 <2.0.0',
+200 silly cache add   type: 'range'
+200 silly cache add }
+201 silly addNamed auto-correct@>=1.0.0 <2.0.0
+202 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for auto-correct
+203 silly addNameRange { name: 'auto-correct', range: '>=1.0.0 <2.0.0', hasData: false }
+204 silly mapToRegistry name auto-correct
+205 silly mapToRegistry using default registry
+206 silly mapToRegistry registry https://registry.npm.taobao.org/
+207 silly mapToRegistry data Result {
+207 silly mapToRegistry   raw: 'auto-correct',
+207 silly mapToRegistry   scope: null,
+207 silly mapToRegistry   name: 'auto-correct',
+207 silly mapToRegistry   rawSpec: '',
+207 silly mapToRegistry   spec: 'latest',
+207 silly mapToRegistry   type: 'tag'
+207 silly mapToRegistry }
+208 silly mapToRegistry uri https://registry.npm.taobao.org/auto-correct
+209 verbose addNameRange registry:https://registry.npm.taobao.org/auto-correct not in flight; fetching
+210 verbose get https://registry.npm.taobao.org/auto-correct not expired, no request
+211 silly addNameRange number 2 { name: 'auto-correct', range: '>=1.0.0 <2.0.0', hasData: true }
+212 silly addNameRange versions [ 'auto-correct', [ '1.0.0' ] ]
+213 silly addNamed auto-correct@1.0.0
+214 verbose addNamed "1.0.0" is a plain semver version for auto-correct
+215 silly mapToRegistry name auto-correct
+216 silly mapToRegistry using default registry
+217 silly mapToRegistry registry https://registry.npm.taobao.org/
+218 silly mapToRegistry data Result {
+218 silly mapToRegistry   raw: 'auto-correct',
+218 silly mapToRegistry   scope: null,
+218 silly mapToRegistry   name: 'auto-correct',
+218 silly mapToRegistry   rawSpec: '',
+218 silly mapToRegistry   spec: 'latest',
+218 silly mapToRegistry   type: 'tag'
+218 silly mapToRegistry }
+219 silly mapToRegistry uri https://registry.npm.taobao.org/auto-correct
+220 verbose addRemoteTarball https://registry.npmmirror.com/auto-correct/-/auto-correct-1.0.0.tgz not in flight; adding
+221 verbose addRemoteTarball [
+221 verbose addRemoteTarball   'https://registry.npmmirror.com/auto-correct/-/auto-correct-1.0.0.tgz',
+221 verbose addRemoteTarball   '9865d9a2c1a7118421f5f0654f685fbeb41b034b'
+221 verbose addRemoteTarball ]
+222 info retry fetch attempt 1 at 23:20:57
+223 info attempt registry request try #1 at 23:20:57
+224 http fetch GET https://registry.npmmirror.com/auto-correct/-/auto-correct-1.0.0.tgz
+225 http 200 https://registry.npm.taobao.org/npm-request
+226 verbose headers {
+226 verbose headers   server: 'Tengine',
+226 verbose headers   'content-type': 'application/json; charset=utf-8',
+226 verbose headers   'content-length': '1682',
+226 verbose headers   connection: 'keep-alive',
+226 verbose headers   'strict-transport-security': 'max-age=5184000',
+226 verbose headers   date: 'Wed, 07 Sep 2022 15:20:58 GMT',
+226 verbose headers   vary: 'Origin, Accept, Accept-Encoding',
+226 verbose headers   'request-id': 'ac826a60-2ec0-11ed-accd-93c04d0c623d',
+226 verbose headers   'cache-control': 'public, max-age=300',
+226 verbose headers   'x-frame-options': 'SAMEORIGIN',
+226 verbose headers   'x-xss-protection': '1; mode=block',
+226 verbose headers   'x-content-type-options': 'nosniff',
+226 verbose headers   'x-download-options': 'noopen',
+226 verbose headers   'x-readtime': '1.605',
+226 verbose headers   via: 'cn1587.l1, kunlun4.cn1587, l2cn1837.l2, cache34.l2cn1837, npmmirror-x86-2022012802003, cache34.l2cn1837[25,25,304-0,M], cache28.l2cn1837[26,0], kunlun4.cn1587[40,39,200-0,H], kunlun7.cn1587[42,0]',
+226 verbose headers   etag: 'W/"81365e49c11a0696738b25ff84905044445e69c4"',
+226 verbose headers   'ali-swift-global-savetime': '1662564058',
+226 verbose headers   'content-encoding': 'gzip',
+226 verbose headers   age: '0',
+226 verbose headers   'x-cache': 'HIT TCP_REFRESH_HIT dirn:11:193593326',
+226 verbose headers   'x-swift-savetime': 'Wed, 07 Sep 2022 15:20:58 GMT',
+226 verbose headers   'x-swift-cachetime': '120',
+226 verbose headers   'timing-allow-origin': '*',
+226 verbose headers   eagleid: 'dd0f411b16625640580988322e'
+226 verbose headers }
+227 silly get cb [
+227 silly get   200,
+227 silly get   {
+227 silly get     server: 'Tengine',
+227 silly get     'content-type': 'application/json; charset=utf-8',
+227 silly get     'content-length': '1682',
+227 silly get     connection: 'keep-alive',
+227 silly get     'strict-transport-security': 'max-age=5184000',
+227 silly get     date: 'Wed, 07 Sep 2022 15:20:58 GMT',
+227 silly get     vary: 'Origin, Accept, Accept-Encoding',
+227 silly get     'request-id': 'ac826a60-2ec0-11ed-accd-93c04d0c623d',
+227 silly get     'cache-control': 'public, max-age=300',
+227 silly get     'x-frame-options': 'SAMEORIGIN',
+227 silly get     'x-xss-protection': '1; mode=block',
+227 silly get     'x-content-type-options': 'nosniff',
+227 silly get     'x-download-options': 'noopen',
+227 silly get     'x-readtime': '1.605',
+227 silly get     via: 'cn1587.l1, kunlun4.cn1587, l2cn1837.l2, cache34.l2cn1837, npmmirror-x86-2022012802003, cache34.l2cn1837[25,25,304-0,M], cache28.l2cn1837[26,0], kunlun4.cn1587[40,39,200-0,H], kunlun7.cn1587[42,0]',
+227 silly get     etag: 'W/"81365e49c11a0696738b25ff84905044445e69c4"',
+227 silly get     'ali-swift-global-savetime': '1662564058',
+227 silly get     'content-encoding': 'gzip',
+227 silly get     age: '0',
+227 silly get     'x-cache': 'HIT TCP_REFRESH_HIT dirn:11:193593326',
+227 silly get     'x-swift-savetime': 'Wed, 07 Sep 2022 15:20:58 GMT',
+227 silly get     'x-swift-cachetime': '120',
+227 silly get     'timing-allow-origin': '*',
+227 silly get     eagleid: 'dd0f411b16625640580988322e'
+227 silly get   }
+227 silly get ]
+228 verbose get saving npm-request to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npm.taobao.org\npm-request\.cache.json
+229 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+230 http 200 https://registry.npm.taobao.org/ini
+231 verbose headers {
+231 verbose headers   server: 'Tengine',
+231 verbose headers   'content-type': 'application/json; charset=utf-8',
+231 verbose headers   'content-length': '9421',
+231 verbose headers   connection: 'keep-alive',
+231 verbose headers   'strict-transport-security': 'max-age=5184000',
+231 verbose headers   date: 'Wed, 07 Sep 2022 15:20:58 GMT',
+231 verbose headers   vary: 'Origin, Accept, Accept-Encoding',
+231 verbose headers   'request-id': 'ac826a60-2ec0-11ed-9f74-e301bde622f4',
+231 verbose headers   'cache-control': 'public, max-age=300',
+231 verbose headers   'x-frame-options': 'SAMEORIGIN',
+231 verbose headers   'x-xss-protection': '1; mode=block',
+231 verbose headers   'x-content-type-options': 'nosniff',
+231 verbose headers   'x-download-options': 'noopen',
+231 verbose headers   'x-readtime': '1.598',
+231 verbose headers   via: 'cn1587.l1, kunlun6.cn1587, l2cn1837.l2, cache4.l2cn1837, npmmirror-x86-001, cache4.l2cn1837[24,24,304-0,M], cache70.l2cn1837[26,0], kunlun6.cn1587[41,40,200-0,H], kunlun6.cn1587[43,0]',
+231 verbose headers   etag: 'W/"68e603d511e2c7694f6b225284e2aff040bfd982"',
+231 verbose headers   'ali-swift-global-savetime': '1662564058',
+231 verbose headers   'content-encoding': 'gzip',
+231 verbose headers   age: '0',
+231 verbose headers   'x-cache': 'HIT TCP_REFRESH_HIT dirn:0:515555579',
+231 verbose headers   'x-swift-savetime': 'Wed, 07 Sep 2022 15:20:58 GMT',
+231 verbose headers   'x-swift-cachetime': '120',
+231 verbose headers   'timing-allow-origin': '*',
+231 verbose headers   eagleid: 'dd0f411a16625640580957174e'
+231 verbose headers }
+232 silly get cb [
+232 silly get   200,
+232 silly get   {
+232 silly get     server: 'Tengine',
+232 silly get     'content-type': 'application/json; charset=utf-8',
+232 silly get     'content-length': '9421',
+232 silly get     connection: 'keep-alive',
+232 silly get     'strict-transport-security': 'max-age=5184000',
+232 silly get     date: 'Wed, 07 Sep 2022 15:20:58 GMT',
+232 silly get     vary: 'Origin, Accept, Accept-Encoding',
+232 silly get     'request-id': 'ac826a60-2ec0-11ed-9f74-e301bde622f4',
+232 silly get     'cache-control': 'public, max-age=300',
+232 silly get     'x-frame-options': 'SAMEORIGIN',
+232 silly get     'x-xss-protection': '1; mode=block',
+232 silly get     'x-content-type-options': 'nosniff',
+232 silly get     'x-download-options': 'noopen',
+232 silly get     'x-readtime': '1.598',
+232 silly get     via: 'cn1587.l1, kunlun6.cn1587, l2cn1837.l2, cache4.l2cn1837, npmmirror-x86-001, cache4.l2cn1837[24,24,304-0,M], cache70.l2cn1837[26,0], kunlun6.cn1587[41,40,200-0,H], kunlun6.cn1587[43,0]',
+232 silly get     etag: 'W/"68e603d511e2c7694f6b225284e2aff040bfd982"',
+232 silly get     'ali-swift-global-savetime': '1662564058',
+232 silly get     'content-encoding': 'gzip',
+232 silly get     age: '0',
+232 silly get     'x-cache': 'HIT TCP_REFRESH_HIT dirn:0:515555579',
+232 silly get     'x-swift-savetime': 'Wed, 07 Sep 2022 15:20:58 GMT',
+232 silly get     'x-swift-cachetime': '120',
+232 silly get     'timing-allow-origin': '*',
+232 silly get     eagleid: 'dd0f411a16625640580957174e'
+232 silly get   }
+232 silly get ]
+233 verbose get saving ini to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npm.taobao.org\ini\.cache.json
+234 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+235 http 200 https://registry.npm.taobao.org/debug
+236 verbose headers {
+236 verbose headers   server: 'Tengine',
+236 verbose headers   'content-type': 'application/json; charset=utf-8',
+236 verbose headers   'content-length': '29316',
+236 verbose headers   connection: 'keep-alive',
+236 verbose headers   'strict-transport-security': 'max-age=5184000',
+236 verbose headers   date: 'Wed, 07 Sep 2022 15:20:58 GMT',
+236 verbose headers   vary: 'Origin, Accept, Accept-Encoding',
+236 verbose headers   'request-id': 'ac81a710-2ec0-11ed-a765-316ba3b185b2',
+236 verbose headers   'cache-control': 'public, max-age=300',
+236 verbose headers   'x-frame-options': 'SAMEORIGIN',
+236 verbose headers   'x-xss-protection': '1; mode=block',
+236 verbose headers   'x-content-type-options': 'nosniff',
+236 verbose headers   'x-download-options': 'noopen',
+236 verbose headers   'x-readtime': '0.9',
+236 verbose headers   via: 'cn1587.l1, kunlun6.cn1587, l2cn1837.l2, cache57.l2cn1837, npmmirror-x86-001, cache57.l2cn1837[24,23,304-0,M], cache21.l2cn1837[25,0], kunlun6.cn1587[38,37,200-0,H], kunlun7.cn1587[41,0]',
+236 verbose headers   etag: 'W/"6cdabc904c52179864bd0d4b8a61085b13bbda82"',
+236 verbose headers   'ali-swift-global-savetime': '1662564058',
+236 verbose headers   'content-encoding': 'gzip',
+236 verbose headers   age: '0',
+236 verbose headers   'x-cache': 'HIT TCP_REFRESH_HIT dirn:11:519579909',
+236 verbose headers   'x-swift-savetime': 'Wed, 07 Sep 2022 15:20:58 GMT',
+236 verbose headers   'x-swift-cachetime': '120',
+236 verbose headers   'timing-allow-origin': '*',
+236 verbose headers   eagleid: 'dd0f411b16625640580958319e'
+236 verbose headers }
+237 silly get cb [
+237 silly get   200,
+237 silly get   {
+237 silly get     server: 'Tengine',
+237 silly get     'content-type': 'application/json; charset=utf-8',
+237 silly get     'content-length': '29316',
+237 silly get     connection: 'keep-alive',
+237 silly get     'strict-transport-security': 'max-age=5184000',
+237 silly get     date: 'Wed, 07 Sep 2022 15:20:58 GMT',
+237 silly get     vary: 'Origin, Accept, Accept-Encoding',
+237 silly get     'request-id': 'ac81a710-2ec0-11ed-a765-316ba3b185b2',
+237 silly get     'cache-control': 'public, max-age=300',
+237 silly get     'x-frame-options': 'SAMEORIGIN',
+237 silly get     'x-xss-protection': '1; mode=block',
+237 silly get     'x-content-type-options': 'nosniff',
+237 silly get     'x-download-options': 'noopen',
+237 silly get     'x-readtime': '0.9',
+237 silly get     via: 'cn1587.l1, kunlun6.cn1587, l2cn1837.l2, cache57.l2cn1837, npmmirror-x86-001, cache57.l2cn1837[24,23,304-0,M], cache21.l2cn1837[25,0], kunlun6.cn1587[38,37,200-0,H], kunlun7.cn1587[41,0]',
+237 silly get     etag: 'W/"6cdabc904c52179864bd0d4b8a61085b13bbda82"',
+237 silly get     'ali-swift-global-savetime': '1662564058',
+237 silly get     'content-encoding': 'gzip',
+237 silly get     age: '0',
+237 silly get     'x-cache': 'HIT TCP_REFRESH_HIT dirn:11:519579909',
+237 silly get     'x-swift-savetime': 'Wed, 07 Sep 2022 15:20:58 GMT',
+237 silly get     'x-swift-cachetime': '120',
+237 silly get     'timing-allow-origin': '*',
+237 silly get     eagleid: 'dd0f411b16625640580958319e'
+237 silly get   }
+237 silly get ]
+238 verbose get saving debug to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npm.taobao.org\debug\.cache.json
+239 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+240 silly resolveWithNewModule npm-request@1.0.0 checking installable status
+241 silly cache add args [ 'npm-request@^1.0.0', null ]
+242 verbose cache add spec npm-request@^1.0.0
+243 silly cache add parsed spec Result {
+243 silly cache add   raw: 'npm-request@^1.0.0',
+243 silly cache add   scope: null,
+243 silly cache add   name: 'npm-request',
+243 silly cache add   rawSpec: '^1.0.0',
+243 silly cache add   spec: '>=1.0.0 <2.0.0',
+243 silly cache add   type: 'range'
+243 silly cache add }
+244 silly addNamed npm-request@>=1.0.0 <2.0.0
+245 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for npm-request
+246 silly addNameRange { name: 'npm-request', range: '>=1.0.0 <2.0.0', hasData: false }
+247 silly mapToRegistry name npm-request
+248 silly mapToRegistry using default registry
+249 silly mapToRegistry registry https://registry.npm.taobao.org/
+250 silly mapToRegistry data Result {
+250 silly mapToRegistry   raw: 'npm-request',
+250 silly mapToRegistry   scope: null,
+250 silly mapToRegistry   name: 'npm-request',
+250 silly mapToRegistry   rawSpec: '',
+250 silly mapToRegistry   spec: 'latest',
+250 silly mapToRegistry   type: 'tag'
+250 silly mapToRegistry }
+251 silly mapToRegistry uri https://registry.npm.taobao.org/npm-request
+252 verbose addNameRange registry:https://registry.npm.taobao.org/npm-request not in flight; fetching
+253 silly resolveWithNewModule ini@1.3.8 checking installable status
+254 silly cache add args [ 'ini@^1.3.4', null ]
+255 verbose cache add spec ini@^1.3.4
+256 silly cache add parsed spec Result {
+256 silly cache add   raw: 'ini@^1.3.4',
+256 silly cache add   scope: null,
+256 silly cache add   name: 'ini',
+256 silly cache add   rawSpec: '^1.3.4',
+256 silly cache add   spec: '>=1.3.4 <2.0.0',
+256 silly cache add   type: 'range'
+256 silly cache add }
+257 silly addNamed ini@>=1.3.4 <2.0.0
+258 verbose addNamed ">=1.3.4 <2.0.0" is a valid semver range for ini
+259 silly addNameRange { name: 'ini', range: '>=1.3.4 <2.0.0', hasData: false }
+260 silly mapToRegistry name ini
+261 silly mapToRegistry using default registry
+262 silly mapToRegistry registry https://registry.npm.taobao.org/
+263 silly mapToRegistry data Result {
+263 silly mapToRegistry   raw: 'ini',
+263 silly mapToRegistry   scope: null,
+263 silly mapToRegistry   name: 'ini',
+263 silly mapToRegistry   rawSpec: '',
+263 silly mapToRegistry   spec: 'latest',
+263 silly mapToRegistry   type: 'tag'
+263 silly mapToRegistry }
+264 silly mapToRegistry uri https://registry.npm.taobao.org/ini
+265 verbose addNameRange registry:https://registry.npm.taobao.org/ini not in flight; fetching
+266 http 200 https://registry.npm.taobao.org/bagpipe
+267 verbose headers {
+267 verbose headers   server: 'Tengine',
+267 verbose headers   'content-type': 'application/json; charset=utf-8',
+267 verbose headers   'content-length': '2236',
+267 verbose headers   connection: 'keep-alive',
+267 verbose headers   'strict-transport-security': 'max-age=5184000',
+267 verbose headers   date: 'Wed, 07 Sep 2022 15:20:58 GMT',
+267 verbose headers   vary: 'Origin, Accept, Accept-Encoding',
+267 verbose headers   'request-id': 'ac8613e0-2ec0-11ed-b150-515ec4425368',
+267 verbose headers   'cache-control': 'public, max-age=300',
+267 verbose headers   'x-frame-options': 'SAMEORIGIN',
+267 verbose headers   'x-xss-protection': '1; mode=block',
+267 verbose headers   'x-content-type-options': 'nosniff',
+267 verbose headers   'x-download-options': 'noopen',
+267 verbose headers   'x-readtime': '0.727',
+267 verbose headers   via: 'cn1587.l1, kunlun10.cn1587, l2cn1837.l2, cache13.l2cn1837, npmmirror-x86-20220823001, cache13.l2cn1837[103,102,304-0,M], cache63.l2cn1837[104,0], kunlun10.cn1587[117,117,200-0,H], kunlun10.cn1587[120,0]',
+267 verbose headers   etag: 'W/"21bf1e88b25999103dbe69896437dcb25f176927"',
+267 verbose headers   'ali-swift-global-savetime': '1662564058',
+267 verbose headers   'content-encoding': 'gzip',
+267 verbose headers   age: '0',
+267 verbose headers   'x-cache': 'HIT TCP_REFRESH_HIT dirn:10:155961055',
+267 verbose headers   'x-swift-savetime': 'Wed, 07 Sep 2022 15:20:58 GMT',
+267 verbose headers   'x-swift-cachetime': '120',
+267 verbose headers   'timing-allow-origin': '*',
+267 verbose headers   eagleid: 'dd0f411e16625640580421030e'
+267 verbose headers }
+268 silly get cb [
+268 silly get   200,
+268 silly get   {
+268 silly get     server: 'Tengine',
+268 silly get     'content-type': 'application/json; charset=utf-8',
+268 silly get     'content-length': '2236',
+268 silly get     connection: 'keep-alive',
+268 silly get     'strict-transport-security': 'max-age=5184000',
+268 silly get     date: 'Wed, 07 Sep 2022 15:20:58 GMT',
+268 silly get     vary: 'Origin, Accept, Accept-Encoding',
+268 silly get     'request-id': 'ac8613e0-2ec0-11ed-b150-515ec4425368',
+268 silly get     'cache-control': 'public, max-age=300',
+268 silly get     'x-frame-options': 'SAMEORIGIN',
+268 silly get     'x-xss-protection': '1; mode=block',
+268 silly get     'x-content-type-options': 'nosniff',
+268 silly get     'x-download-options': 'noopen',
+268 silly get     'x-readtime': '0.727',
+268 silly get     via: 'cn1587.l1, kunlun10.cn1587, l2cn1837.l2, cache13.l2cn1837, npmmirror-x86-20220823001, cache13.l2cn1837[103,102,304-0,M], cache63.l2cn1837[104,0], kunlun10.cn1587[117,117,200-0,H], kunlun10.cn1587[120,0]',
+268 silly get     etag: 'W/"21bf1e88b25999103dbe69896437dcb25f176927"',
+268 silly get     'ali-swift-global-savetime': '1662564058',
+268 silly get     'content-encoding': 'gzip',
+268 silly get     age: '0',
+268 silly get     'x-cache': 'HIT TCP_REFRESH_HIT dirn:10:155961055',
+268 silly get     'x-swift-savetime': 'Wed, 07 Sep 2022 15:20:58 GMT',
+268 silly get     'x-swift-cachetime': '120',
+268 silly get     'timing-allow-origin': '*',
+268 silly get     eagleid: 'dd0f411e16625640580421030e'
+268 silly get   }
+268 silly get ]
+269 verbose get saving bagpipe to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npm.taobao.org\bagpipe\.cache.json
+270 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+271 verbose get https://registry.npm.taobao.org/npm-request not expired, no request
+272 silly addNameRange number 2 { name: 'npm-request', range: '>=1.0.0 <2.0.0', hasData: true }
+273 silly addNameRange versions [ 'npm-request', [ '1.0.0', '0.0.4', '0.0.3', '0.0.1' ] ]
+274 silly addNamed npm-request@1.0.0
+275 verbose addNamed "1.0.0" is a plain semver version for npm-request
+276 verbose get https://registry.npm.taobao.org/ini not expired, no request
+277 silly addNameRange number 2 { name: 'ini', range: '>=1.3.4 <2.0.0', hasData: true }
+278 silly addNameRange versions [
+278 silly addNameRange   'ini',
+278 silly addNameRange   [
+278 silly addNameRange     '2.0.0', '1.3.8', '1.3.7',
+278 silly addNameRange     '1.3.6', '1.3.5', '1.3.4',
+278 silly addNameRange     '1.3.3', '1.3.2', '1.3.1',
+278 silly addNameRange     '1.3.0', '1.2.1', '1.2.0',
+278 silly addNameRange     '1.1.0', '1.0.5', '1.0.4',
+278 silly addNameRange     '1.0.3', '1.0.2', '1.0.1',
+278 silly addNameRange     '1.0.0', '3.0.0', '3.0.1'
+278 silly addNameRange   ]
+278 silly addNameRange ]
+279 silly addNamed ini@1.3.8
+280 verbose addNamed "1.3.8" is a plain semver version for ini
+281 silly mapToRegistry name npm-request
+282 silly mapToRegistry using default registry
+283 silly mapToRegistry registry https://registry.npm.taobao.org/
+284 silly mapToRegistry data Result {
+284 silly mapToRegistry   raw: 'npm-request',
+284 silly mapToRegistry   scope: null,
+284 silly mapToRegistry   name: 'npm-request',
+284 silly mapToRegistry   rawSpec: '',
+284 silly mapToRegistry   spec: 'latest',
+284 silly mapToRegistry   type: 'tag'
+284 silly mapToRegistry }
+285 silly mapToRegistry uri https://registry.npm.taobao.org/npm-request
+286 verbose addRemoteTarball https://registry.npmmirror.com/npm-request/-/npm-request-1.0.0.tgz not in flight; adding
+287 verbose addRemoteTarball [
+287 verbose addRemoteTarball   'https://registry.npmmirror.com/npm-request/-/npm-request-1.0.0.tgz',
+287 verbose addRemoteTarball   '3bca7a50ec6dbd390bf1465ad49d459e57d6f8bf'
+287 verbose addRemoteTarball ]
+288 http 200 https://registry.npm.taobao.org/open
+289 verbose headers {
+289 verbose headers   server: 'Tengine',
+289 verbose headers   'content-type': 'application/json; charset=utf-8',
+289 verbose headers   'content-length': '14017',
+289 verbose headers   connection: 'keep-alive',
+289 verbose headers   'strict-transport-security': 'max-age=5184000',
+289 verbose headers   date: 'Wed, 07 Sep 2022 15:20:58 GMT',
+289 verbose headers   vary: 'Origin, Accept, Accept-Encoding',
+289 verbose headers   'request-id': 'ac824350-2ec0-11ed-a73b-5154770e8c88',
+289 verbose headers   'cache-control': 'public, max-age=300',
+289 verbose headers   'x-frame-options': 'SAMEORIGIN',
+289 verbose headers   'x-xss-protection': '1; mode=block',
+289 verbose headers   'x-content-type-options': 'nosniff',
+289 verbose headers   'x-download-options': 'noopen',
+289 verbose headers   'x-readtime': '0.798',
+289 verbose headers   via: 'cn1587.l1, kunlun8.cn1587, l2cn1837.l2, cache11.l2cn1837, npmmirror-x86-2022012802002, cache11.l2cn1837[23,23,304-0,M], cache33.l2cn1837[25,0], kunlun8.cn1587[37,37,200-0,H], kunlun6.cn1587[41,0]',
+289 verbose headers   etag: 'W/"3a9506c802824903c923acf5d5f657bad02ae501"',
+289 verbose headers   'ali-swift-global-savetime': '1662564058',
+289 verbose headers   'content-encoding': 'gzip',
+289 verbose headers   age: '0',
+289 verbose headers   'x-cache': 'HIT TCP_REFRESH_HIT dirn:10:335504749',
+289 verbose headers   'x-swift-savetime': 'Wed, 07 Sep 2022 15:20:58 GMT',
+289 verbose headers   'x-swift-cachetime': '120',
+289 verbose headers   'timing-allow-origin': '*',
+289 verbose headers   eagleid: 'dd0f411a16625640580967176e'
+289 verbose headers }
+290 silly get cb [
+290 silly get   200,
+290 silly get   {
+290 silly get     server: 'Tengine',
+290 silly get     'content-type': 'application/json; charset=utf-8',
+290 silly get     'content-length': '14017',
+290 silly get     connection: 'keep-alive',
+290 silly get     'strict-transport-security': 'max-age=5184000',
+290 silly get     date: 'Wed, 07 Sep 2022 15:20:58 GMT',
+290 silly get     vary: 'Origin, Accept, Accept-Encoding',
+290 silly get     'request-id': 'ac824350-2ec0-11ed-a73b-5154770e8c88',
+290 silly get     'cache-control': 'public, max-age=300',
+290 silly get     'x-frame-options': 'SAMEORIGIN',
+290 silly get     'x-xss-protection': '1; mode=block',
+290 silly get     'x-content-type-options': 'nosniff',
+290 silly get     'x-download-options': 'noopen',
+290 silly get     'x-readtime': '0.798',
+290 silly get     via: 'cn1587.l1, kunlun8.cn1587, l2cn1837.l2, cache11.l2cn1837, npmmirror-x86-2022012802002, cache11.l2cn1837[23,23,304-0,M], cache33.l2cn1837[25,0], kunlun8.cn1587[37,37,200-0,H], kunlun6.cn1587[41,0]',
+290 silly get     etag: 'W/"3a9506c802824903c923acf5d5f657bad02ae501"',
+290 silly get     'ali-swift-global-savetime': '1662564058',
+290 silly get     'content-encoding': 'gzip',
+290 silly get     age: '0',
+290 silly get     'x-cache': 'HIT TCP_REFRESH_HIT dirn:10:335504749',
+290 silly get     'x-swift-savetime': 'Wed, 07 Sep 2022 15:20:58 GMT',
+290 silly get     'x-swift-cachetime': '120',
+290 silly get     'timing-allow-origin': '*',
+290 silly get     eagleid: 'dd0f411a16625640580967176e'
+290 silly get   }
+290 silly get ]
+291 verbose get saving open to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npm.taobao.org\open\.cache.json
+292 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+293 silly mapToRegistry name ini
+294 silly mapToRegistry using default registry
+295 silly mapToRegistry registry https://registry.npm.taobao.org/
+296 silly mapToRegistry data Result {
+296 silly mapToRegistry   raw: 'ini',
+296 silly mapToRegistry   scope: null,
+296 silly mapToRegistry   name: 'ini',
+296 silly mapToRegistry   rawSpec: '',
+296 silly mapToRegistry   spec: 'latest',
+296 silly mapToRegistry   type: 'tag'
+296 silly mapToRegistry }
+297 silly mapToRegistry uri https://registry.npm.taobao.org/ini
+298 verbose addRemoteTarball https://registry.npmmirror.com/ini/-/ini-1.3.8.tgz not in flight; adding
+299 verbose addRemoteTarball [
+299 verbose addRemoteTarball   'https://registry.npmmirror.com/ini/-/ini-1.3.8.tgz',
+299 verbose addRemoteTarball   'a29da425b48806f34767a4efce397269af28432c'
+299 verbose addRemoteTarball ]
+300 http 200 https://registry.npm.taobao.org/cross-spawn
+301 verbose headers {
+301 verbose headers   server: 'Tengine',
+301 verbose headers   'content-type': 'application/json; charset=utf-8',
+301 verbose headers   'content-length': '17010',
+301 verbose headers   connection: 'keep-alive',
+301 verbose headers   'strict-transport-security': 'max-age=5184000',
+301 verbose headers   date: 'Wed, 07 Sep 2022 15:20:58 GMT',
+301 verbose headers   vary: 'Origin, Accept, Accept-Encoding',
+301 verbose headers   'request-id': 'ac81a710-2ec0-11ed-bec1-eb3287f0b7dc',
+301 verbose headers   'cache-control': 'public, max-age=300',
+301 verbose headers   'x-frame-options': 'SAMEORIGIN',
+301 verbose headers   'x-xss-protection': '1; mode=block',
+301 verbose headers   'x-content-type-options': 'nosniff',
+301 verbose headers   'x-download-options': 'noopen',
+301 verbose headers   'x-readtime': '1.635',
+301 verbose headers   via: 'cn1587.l1, kunlun5.cn1587, l2cn1837.l2, cache32.l2cn1837, npmmirror-x86-20220823001, cache32.l2cn1837[25,24,304-0,M], cache57.l2cn1837[26,0], kunlun5.cn1587[42,41,200-0,H], kunlun9.cn1587[49,0]',
+301 verbose headers   etag: 'W/"083e24b821a41f68cb0f931554dee952de9358dd"',
+301 verbose headers   'ali-swift-global-savetime': '1662564058',
+301 verbose headers   'content-encoding': 'gzip',
+301 verbose headers   age: '0',
+301 verbose headers   'x-cache': 'HIT TCP_REFRESH_HIT dirn:11:368729175',
+301 verbose headers   'x-swift-savetime': 'Wed, 07 Sep 2022 15:20:58 GMT',
+301 verbose headers   'x-swift-cachetime': '120',
+301 verbose headers   'timing-allow-origin': '*',
+301 verbose headers   eagleid: 'dd0f411d16625640580895192e'
+301 verbose headers }
+302 silly get cb [
+302 silly get   200,
+302 silly get   {
+302 silly get     server: 'Tengine',
+302 silly get     'content-type': 'application/json; charset=utf-8',
+302 silly get     'content-length': '17010',
+302 silly get     connection: 'keep-alive',
+302 silly get     'strict-transport-security': 'max-age=5184000',
+302 silly get     date: 'Wed, 07 Sep 2022 15:20:58 GMT',
+302 silly get     vary: 'Origin, Accept, Accept-Encoding',
+302 silly get     'request-id': 'ac81a710-2ec0-11ed-bec1-eb3287f0b7dc',
+302 silly get     'cache-control': 'public, max-age=300',
+302 silly get     'x-frame-options': 'SAMEORIGIN',
+302 silly get     'x-xss-protection': '1; mode=block',
+302 silly get     'x-content-type-options': 'nosniff',
+302 silly get     'x-download-options': 'noopen',
+302 silly get     'x-readtime': '1.635',
+302 silly get     via: 'cn1587.l1, kunlun5.cn1587, l2cn1837.l2, cache32.l2cn1837, npmmirror-x86-20220823001, cache32.l2cn1837[25,24,304-0,M], cache57.l2cn1837[26,0], kunlun5.cn1587[42,41,200-0,H], kunlun9.cn1587[49,0]',
+302 silly get     etag: 'W/"083e24b821a41f68cb0f931554dee952de9358dd"',
+302 silly get     'ali-swift-global-savetime': '1662564058',
+302 silly get     'content-encoding': 'gzip',
+302 silly get     age: '0',
+302 silly get     'x-cache': 'HIT TCP_REFRESH_HIT dirn:11:368729175',
+302 silly get     'x-swift-savetime': 'Wed, 07 Sep 2022 15:20:58 GMT',
+302 silly get     'x-swift-cachetime': '120',
+302 silly get     'timing-allow-origin': '*',
+302 silly get     eagleid: 'dd0f411d16625640580895192e'
+302 silly get   }
+302 silly get ]
+303 verbose get saving cross-spawn to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npm.taobao.org\cross-spawn\.cache.json
+304 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+305 info retry fetch attempt 1 at 23:20:58
+306 info attempt registry request try #1 at 23:20:58
+307 http fetch GET https://registry.npmmirror.com/npm-request/-/npm-request-1.0.0.tgz
+308 info retry fetch attempt 1 at 23:20:58
+309 info attempt registry request try #1 at 23:20:58
+310 http fetch GET https://registry.npmmirror.com/ini/-/ini-1.3.8.tgz
+311 silly resolveWithNewModule debug@4.3.4 checking installable status
+312 silly cache add args [ 'debug@^4.3.4', null ]
+313 verbose cache add spec debug@^4.3.4
+314 silly cache add parsed spec Result {
+314 silly cache add   raw: 'debug@^4.3.4',
+314 silly cache add   scope: null,
+314 silly cache add   name: 'debug',
+314 silly cache add   rawSpec: '^4.3.4',
+314 silly cache add   spec: '>=4.3.4 <5.0.0',
+314 silly cache add   type: 'range'
+314 silly cache add }
+315 silly addNamed debug@>=4.3.4 <5.0.0
+316 verbose addNamed ">=4.3.4 <5.0.0" is a valid semver range for debug
+317 silly addNameRange { name: 'debug', range: '>=4.3.4 <5.0.0', hasData: false }
+318 silly mapToRegistry name debug
+319 silly mapToRegistry using default registry
+320 silly mapToRegistry registry https://registry.npm.taobao.org/
+321 silly mapToRegistry data Result {
+321 silly mapToRegistry   raw: 'debug',
+321 silly mapToRegistry   scope: null,
+321 silly mapToRegistry   name: 'debug',
+321 silly mapToRegistry   rawSpec: '',
+321 silly mapToRegistry   spec: 'latest',
+321 silly mapToRegistry   type: 'tag'
+321 silly mapToRegistry }
+322 silly mapToRegistry uri https://registry.npm.taobao.org/debug
+323 verbose addNameRange registry:https://registry.npm.taobao.org/debug not in flight; fetching
+324 http 200 https://registry.npm.taobao.org/giturl
+325 verbose headers {
+325 verbose headers   server: 'Tengine',
+325 verbose headers   'content-type': 'application/json; charset=utf-8',
+325 verbose headers   'content-length': '3304',
+325 verbose headers   connection: 'keep-alive',
+325 verbose headers   'strict-transport-security': 'max-age=5184000',
+325 verbose headers   date: 'Wed, 07 Sep 2022 15:20:58 GMT',
+325 verbose headers   vary: 'Origin, Accept, Accept-Encoding',
+325 verbose headers   'request-id': 'ac874c60-2ec0-11ed-a2ac-d383791f40eb',
+325 verbose headers   'cache-control': 'public, max-age=300',
+325 verbose headers   'x-frame-options': 'SAMEORIGIN',
+325 verbose headers   'x-xss-protection': '1; mode=block',
+325 verbose headers   'x-content-type-options': 'nosniff',
+325 verbose headers   'x-download-options': 'noopen',
+325 verbose headers   'x-readtime': '1.165',
+325 verbose headers   via: 'cn1587.l1, kunlun1.cn1587, l2cn1837.l2, cache11.l2cn1837, npmmirror-x86-20220823002, cache11.l2cn1837[24,23,304-0,M], cache69.l2cn1837[24,0], kunlun1.cn1587[68,74,200-0,H], kunlun10.cn1587[76,0]',
+325 verbose headers   etag: 'W/"d1fe25d37ac801ad524a7fb646595ee9f2624809"',
+325 verbose headers   'ali-swift-global-savetime': '1662564058',
+325 verbose headers   'content-encoding': 'gzip',
+325 verbose headers   age: '0',
+325 verbose headers   'x-cache': 'HIT TCP_REFRESH_HIT dirn:5:17748194',
+325 verbose headers   'x-swift-savetime': 'Wed, 07 Sep 2022 15:20:58 GMT',
+325 verbose headers   'x-swift-cachetime': '120',
+325 verbose headers   'timing-allow-origin': '*',
+325 verbose headers   eagleid: 'dd0f411e16625640580931046e'
+325 verbose headers }
+326 silly get cb [
+326 silly get   200,
+326 silly get   {
+326 silly get     server: 'Tengine',
+326 silly get     'content-type': 'application/json; charset=utf-8',
+326 silly get     'content-length': '3304',
+326 silly get     connection: 'keep-alive',
+326 silly get     'strict-transport-security': 'max-age=5184000',
+326 silly get     date: 'Wed, 07 Sep 2022 15:20:58 GMT',
+326 silly get     vary: 'Origin, Accept, Accept-Encoding',
+326 silly get     'request-id': 'ac874c60-2ec0-11ed-a2ac-d383791f40eb',
+326 silly get     'cache-control': 'public, max-age=300',
+326 silly get     'x-frame-options': 'SAMEORIGIN',
+326 silly get     'x-xss-protection': '1; mode=block',
+326 silly get     'x-content-type-options': 'nosniff',
+326 silly get     'x-download-options': 'noopen',
+326 silly get     'x-readtime': '1.165',
+326 silly get     via: 'cn1587.l1, kunlun1.cn1587, l2cn1837.l2, cache11.l2cn1837, npmmirror-x86-20220823002, cache11.l2cn1837[24,23,304-0,M], cache69.l2cn1837[24,0], kunlun1.cn1587[68,74,200-0,H], kunlun10.cn1587[76,0]',
+326 silly get     etag: 'W/"d1fe25d37ac801ad524a7fb646595ee9f2624809"',
+326 silly get     'ali-swift-global-savetime': '1662564058',
+326 silly get     'content-encoding': 'gzip',
+326 silly get     age: '0',
+326 silly get     'x-cache': 'HIT TCP_REFRESH_HIT dirn:5:17748194',
+326 silly get     'x-swift-savetime': 'Wed, 07 Sep 2022 15:20:58 GMT',
+326 silly get     'x-swift-cachetime': '120',
+326 silly get     'timing-allow-origin': '*',
+326 silly get     eagleid: 'dd0f411e16625640580931046e'
+326 silly get   }
+326 silly get ]
+327 verbose get saving giturl to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npm.taobao.org\giturl\.cache.json
+328 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+329 silly resolveWithNewModule bagpipe@0.3.5 checking installable status
+330 silly cache add args [ 'bagpipe@^0.3.5', null ]
+331 verbose cache add spec bagpipe@^0.3.5
+332 silly cache add parsed spec Result {
+332 silly cache add   raw: 'bagpipe@^0.3.5',
+332 silly cache add   scope: null,
+332 silly cache add   name: 'bagpipe',
+332 silly cache add   rawSpec: '^0.3.5',
+332 silly cache add   spec: '>=0.3.5 <0.4.0',
+332 silly cache add   type: 'range'
+332 silly cache add }
+333 silly addNamed bagpipe@>=0.3.5 <0.4.0
+334 verbose addNamed ">=0.3.5 <0.4.0" is a valid semver range for bagpipe
+335 silly addNameRange { name: 'bagpipe', range: '>=0.3.5 <0.4.0', hasData: false }
+336 silly mapToRegistry name bagpipe
+337 silly mapToRegistry using default registry
+338 silly mapToRegistry registry https://registry.npm.taobao.org/
+339 silly mapToRegistry data Result {
+339 silly mapToRegistry   raw: 'bagpipe',
+339 silly mapToRegistry   scope: null,
+339 silly mapToRegistry   name: 'bagpipe',
+339 silly mapToRegistry   rawSpec: '',
+339 silly mapToRegistry   spec: 'latest',
+339 silly mapToRegistry   type: 'tag'
+339 silly mapToRegistry }
+340 silly mapToRegistry uri https://registry.npm.taobao.org/bagpipe
+341 verbose addNameRange registry:https://registry.npm.taobao.org/bagpipe not in flight; fetching
+342 verbose get https://registry.npm.taobao.org/debug not expired, no request
+343 silly addNameRange number 2 { name: 'debug', range: '>=4.3.4 <5.0.0', hasData: true }
+344 silly addNameRange versions [
+344 silly addNameRange   'debug',
+344 silly addNameRange   [
+344 silly addNameRange     '4.3.3', '4.3.2', '3.2.7', '4.3.1', '4.3.0',
+344 silly addNameRange     '4.2.0', '4.1.1', '3.2.6', '4.1.0', '4.0.1',
+344 silly addNameRange     '3.2.5', '3.2.4', '4.0.0', '3.2.3', '3.2.2',
+344 silly addNameRange     '3.2.1', '3.2.0', '3.1.0', '2.6.9', '3.0.1',
+344 silly addNameRange     '3.0.0', '1.0.5', '2.6.8', '2.6.7', '2.6.6',
+344 silly addNameRange     '2.6.5', '2.6.4', '2.6.3', '2.6.2', '2.6.1',
+344 silly addNameRange     '2.6.0', '2.5.2', '2.5.1', '2.5.0', '2.4.5',
+344 silly addNameRange     '2.4.4', '2.4.3', '2.4.2', '2.4.1', '2.4.0',
+344 silly addNameRange     '2.3.3', '2.3.2', '2.3.1', '2.3.0', '2.2.0',
+344 silly addNameRange     '2.1.3', '2.1.2', '2.1.1', '2.1.0', '2.0.0',
+344 silly addNameRange     '1.0.4', '1.0.3', '1.0.2', '1.0.1', '1.0.0',
+344 silly addNameRange     '0.8.1', '0.8.0', '0.7.4', '0.7.3', '0.7.2',
+344 silly addNameRange     '0.7.1', '0.7.0', '0.6.0', '0.5.0', '0.4.1',
+344 silly addNameRange     '0.4.0', '0.3.0', '0.2.0', '0.1.0', '0.0.1',
+344 silly addNameRange     '4.3.4'
+344 silly addNameRange   ]
+344 silly addNameRange ]
+345 silly addNamed debug@4.3.4
+346 verbose addNamed "4.3.4" is a plain semver version for debug
+347 silly mapToRegistry name debug
+348 silly mapToRegistry using default registry
+349 silly mapToRegistry registry https://registry.npm.taobao.org/
+350 silly mapToRegistry data Result {
+350 silly mapToRegistry   raw: 'debug',
+350 silly mapToRegistry   scope: null,
+350 silly mapToRegistry   name: 'debug',
+350 silly mapToRegistry   rawSpec: '',
+350 silly mapToRegistry   spec: 'latest',
+350 silly mapToRegistry   type: 'tag'
+350 silly mapToRegistry }
+351 silly mapToRegistry uri https://registry.npm.taobao.org/debug
+352 verbose addRemoteTarball https://registry.npmmirror.com/debug/-/debug-4.3.4.tgz not in flight; adding
+353 verbose addRemoteTarball [
+353 verbose addRemoteTarball   'https://registry.npmmirror.com/debug/-/debug-4.3.4.tgz',
+353 verbose addRemoteTarball   '1319f6579357f2338d3337d2cdd4914bb5dcc865'
+353 verbose addRemoteTarball ]
+354 silly resolveWithNewModule open@8.4.0 checking installable status
+355 silly cache add args [ 'open@^8.2.1', null ]
+356 verbose cache add spec open@^8.2.1
+357 silly cache add parsed spec Result {
+357 silly cache add   raw: 'open@^8.2.1',
+357 silly cache add   scope: null,
+357 silly cache add   name: 'open',
+357 silly cache add   rawSpec: '^8.2.1',
+357 silly cache add   spec: '>=8.2.1 <9.0.0',
+357 silly cache add   type: 'range'
+357 silly cache add }
+358 silly addNamed open@>=8.2.1 <9.0.0
+359 verbose addNamed ">=8.2.1 <9.0.0" is a valid semver range for open
+360 silly addNameRange { name: 'open', range: '>=8.2.1 <9.0.0', hasData: false }
+361 silly mapToRegistry name open
+362 silly mapToRegistry using default registry
+363 silly mapToRegistry registry https://registry.npm.taobao.org/
+364 silly mapToRegistry data Result {
+364 silly mapToRegistry   raw: 'open',
+364 silly mapToRegistry   scope: null,
+364 silly mapToRegistry   name: 'open',
+364 silly mapToRegistry   rawSpec: '',
+364 silly mapToRegistry   spec: 'latest',
+364 silly mapToRegistry   type: 'tag'
+364 silly mapToRegistry }
+365 silly mapToRegistry uri https://registry.npm.taobao.org/open
+366 verbose addNameRange registry:https://registry.npm.taobao.org/open not in flight; fetching
+367 verbose get https://registry.npm.taobao.org/bagpipe not expired, no request
+368 silly addNameRange number 2 { name: 'bagpipe', range: '>=0.3.5 <0.4.0', hasData: true }
+369 silly addNameRange versions [
+369 silly addNameRange   'bagpipe',
+369 silly addNameRange   [
+369 silly addNameRange     '0.3.5', '0.3.4',
+369 silly addNameRange     '0.3.3', '0.3.2',
+369 silly addNameRange     '0.3.1', '0.3.0',
+369 silly addNameRange     '0.2.0', '0.0.1'
+369 silly addNameRange   ]
+369 silly addNameRange ]
+370 silly addNamed bagpipe@0.3.5
+371 verbose addNamed "0.3.5" is a plain semver version for bagpipe
+372 silly resolveWithNewModule cross-spawn@0.2.9 checking installable status
+373 silly cache add args [ 'cross-spawn@~0.2.8', null ]
+374 verbose cache add spec cross-spawn@~0.2.8
+375 silly cache add parsed spec Result {
+375 silly cache add   raw: 'cross-spawn@~0.2.8',
+375 silly cache add   scope: null,
+375 silly cache add   name: 'cross-spawn',
+375 silly cache add   rawSpec: '~0.2.8',
+375 silly cache add   spec: '>=0.2.8 <0.3.0',
+375 silly cache add   type: 'range'
+375 silly cache add }
+376 silly addNamed cross-spawn@>=0.2.8 <0.3.0
+377 verbose addNamed ">=0.2.8 <0.3.0" is a valid semver range for cross-spawn
+378 silly addNameRange { name: 'cross-spawn', range: '>=0.2.8 <0.3.0', hasData: false }
+379 silly mapToRegistry name cross-spawn
+380 silly mapToRegistry using default registry
+381 silly mapToRegistry registry https://registry.npm.taobao.org/
+382 silly mapToRegistry data Result {
+382 silly mapToRegistry   raw: 'cross-spawn',
+382 silly mapToRegistry   scope: null,
+382 silly mapToRegistry   name: 'cross-spawn',
+382 silly mapToRegistry   rawSpec: '',
+382 silly mapToRegistry   spec: 'latest',
+382 silly mapToRegistry   type: 'tag'
+382 silly mapToRegistry }
+383 silly mapToRegistry uri https://registry.npm.taobao.org/cross-spawn
+384 verbose addNameRange registry:https://registry.npm.taobao.org/cross-spawn not in flight; fetching
+385 info retry fetch attempt 1 at 23:20:58
+386 info attempt registry request try #1 at 23:20:58
+387 http fetch GET https://registry.npmmirror.com/debug/-/debug-4.3.4.tgz
+388 silly mapToRegistry name bagpipe
+389 silly mapToRegistry using default registry
+390 silly mapToRegistry registry https://registry.npm.taobao.org/
+391 silly mapToRegistry data Result {
+391 silly mapToRegistry   raw: 'bagpipe',
+391 silly mapToRegistry   scope: null,
+391 silly mapToRegistry   name: 'bagpipe',
+391 silly mapToRegistry   rawSpec: '',
+391 silly mapToRegistry   spec: 'latest',
+391 silly mapToRegistry   type: 'tag'
+391 silly mapToRegistry }
+392 silly mapToRegistry uri https://registry.npm.taobao.org/bagpipe
+393 verbose addRemoteTarball https://registry.npmmirror.com/bagpipe/-/bagpipe-0.3.5.tgz not in flight; adding
+394 verbose addRemoteTarball [
+394 verbose addRemoteTarball   'https://registry.npmmirror.com/bagpipe/-/bagpipe-0.3.5.tgz',
+394 verbose addRemoteTarball   'e341d164fcb24cdf04ea7e05b765ec10c8aea6a1'
+394 verbose addRemoteTarball ]
+395 verbose get https://registry.npm.taobao.org/open not expired, no request
+396 silly addNameRange number 2 { name: 'open', range: '>=8.2.1 <9.0.0', hasData: true }
+397 silly addNameRange versions [
+397 silly addNameRange   'open',
+397 silly addNameRange   [
+397 silly addNameRange     '0.0.2', '8.4.0', '8.3.0', '8.2.1',
+397 silly addNameRange     '8.2.0', '8.1.0', '8.0.9', '8.0.8',
+397 silly addNameRange     '8.0.7', '8.0.6', '8.0.5', '8.0.4',
+397 silly addNameRange     '8.0.3', '8.0.2', '8.0.1', '8.0.0',
+397 silly addNameRange     '7.4.2', '7.4.1', '7.4.0', '7.3.1',
+397 silly addNameRange     '7.3.0', '7.2.1', '7.2.0', '7.1.0',
+397 silly addNameRange     '7.0.4', '7.0.3', '7.0.2', '7.0.1',
+397 silly addNameRange     '7.0.0', '6.4.0', '6.3.0', '6.2.0',
+397 silly addNameRange     '6.1.0', '6.0.0', '0.0.5', '0.0.4',
+397 silly addNameRange     '0.0.3', '0.0.0'
+397 silly addNameRange   ]
+397 silly addNameRange ]
+398 silly addNamed open@8.4.0
+399 verbose addNamed "8.4.0" is a plain semver version for open
+400 info retry fetch attempt 1 at 23:20:58
+401 info attempt registry request try #1 at 23:20:58
+402 http fetch GET https://registry.npmmirror.com/bagpipe/-/bagpipe-0.3.5.tgz
+403 silly mapToRegistry name open
+404 silly mapToRegistry using default registry
+405 silly mapToRegistry registry https://registry.npm.taobao.org/
+406 silly mapToRegistry data Result {
+406 silly mapToRegistry   raw: 'open',
+406 silly mapToRegistry   scope: null,
+406 silly mapToRegistry   name: 'open',
+406 silly mapToRegistry   rawSpec: '',
+406 silly mapToRegistry   spec: 'latest',
+406 silly mapToRegistry   type: 'tag'
+406 silly mapToRegistry }
+407 silly mapToRegistry uri https://registry.npm.taobao.org/open
+408 verbose addRemoteTarball https://registry.npmmirror.com/open/-/open-8.4.0.tgz not in flight; adding
+409 verbose addRemoteTarball [
+409 verbose addRemoteTarball   'https://registry.npmmirror.com/open/-/open-8.4.0.tgz',
+409 verbose addRemoteTarball   '345321ae18f8138f82565a910fdc6b39e8c244f8'
+409 verbose addRemoteTarball ]
+410 verbose get https://registry.npm.taobao.org/cross-spawn not expired, no request
+411 silly addNameRange number 2 { name: 'cross-spawn', range: '>=0.2.8 <0.3.0', hasData: true }
+412 silly addNameRange versions [
+412 silly addNameRange   'cross-spawn',
+412 silly addNameRange   [
+412 silly addNameRange     '7.0.3', '7.0.2', '7.0.1', '7.0.0', '6.0.5',
+412 silly addNameRange     '6.0.4', '6.0.3', '6.0.2', '6.0.1', '6.0.0',
+412 silly addNameRange     '5.1.0', '5.0.1', '5.0.0', '4.0.2', '4.0.0',
+412 silly addNameRange     '3.0.1', '3.0.0', '2.2.3', '2.2.2', '2.2.0',
+412 silly addNameRange     '2.1.5', '2.1.4', '2.1.3', '2.1.2', '2.1.1',
+412 silly addNameRange     '2.1.0', '2.0.1', '2.0.0', '1.0.4', '1.0.3',
+412 silly addNameRange     '1.0.2', '1.0.1', '1.0.0', '0.4.1', '0.4.0',
+412 silly addNameRange     '0.3.0', '0.2.9', '0.2.8', '0.2.7', '0.2.6',
+412 silly addNameRange     '0.2.5', '0.2.4', '0.2.3', '0.2.2', '0.2.1',
+412 silly addNameRange     '0.2.0', '0.1.7', '0.1.6', '0.1.5', '0.1.4',
+412 silly addNameRange     '0.1.3', '0.1.2', '0.1.1', '0.1.0'
+412 silly addNameRange   ]
+412 silly addNameRange ]
+413 silly addNamed cross-spawn@0.2.9
+414 verbose addNamed "0.2.9" is a plain semver version for cross-spawn
+415 silly resolveWithNewModule giturl@1.0.1 checking installable status
+416 silly cache add args [ 'giturl@^1.0.0', null ]
+417 verbose cache add spec giturl@^1.0.0
+418 silly cache add parsed spec Result {
+418 silly cache add   raw: 'giturl@^1.0.0',
+418 silly cache add   scope: null,
+418 silly cache add   name: 'giturl',
+418 silly cache add   rawSpec: '^1.0.0',
+418 silly cache add   spec: '>=1.0.0 <2.0.0',
+418 silly cache add   type: 'range'
+418 silly cache add }
+419 silly addNamed giturl@>=1.0.0 <2.0.0
+420 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for giturl
+421 silly addNameRange { name: 'giturl', range: '>=1.0.0 <2.0.0', hasData: false }
+422 silly mapToRegistry name giturl
+423 silly mapToRegistry using default registry
+424 silly mapToRegistry registry https://registry.npm.taobao.org/
+425 silly mapToRegistry data Result {
+425 silly mapToRegistry   raw: 'giturl',
+425 silly mapToRegistry   scope: null,
+425 silly mapToRegistry   name: 'giturl',
+425 silly mapToRegistry   rawSpec: '',
+425 silly mapToRegistry   spec: 'latest',
+425 silly mapToRegistry   type: 'tag'
+425 silly mapToRegistry }
+426 silly mapToRegistry uri https://registry.npm.taobao.org/giturl
+427 verbose addNameRange registry:https://registry.npm.taobao.org/giturl not in flight; fetching
+428 silly mapToRegistry name cross-spawn
+429 silly mapToRegistry using default registry
+430 silly mapToRegistry registry https://registry.npm.taobao.org/
+431 silly mapToRegistry data Result {
+431 silly mapToRegistry   raw: 'cross-spawn',
+431 silly mapToRegistry   scope: null,
+431 silly mapToRegistry   name: 'cross-spawn',
+431 silly mapToRegistry   rawSpec: '',
+431 silly mapToRegistry   spec: 'latest',
+431 silly mapToRegistry   type: 'tag'
+431 silly mapToRegistry }
+432 silly mapToRegistry uri https://registry.npm.taobao.org/cross-spawn
+433 verbose addRemoteTarball https://registry.npmmirror.com/cross-spawn/-/cross-spawn-0.2.9.tgz not in flight; adding
+434 verbose addRemoteTarball [
+434 verbose addRemoteTarball   'https://registry.npmmirror.com/cross-spawn/-/cross-spawn-0.2.9.tgz',
+434 verbose addRemoteTarball   'bd67f96c07efb6303b7fe94c1e979f88478e0a39'
+434 verbose addRemoteTarball ]
+435 info retry fetch attempt 1 at 23:20:58
+436 info attempt registry request try #1 at 23:20:58
+437 http fetch GET https://registry.npmmirror.com/open/-/open-8.4.0.tgz
+438 verbose get https://registry.npm.taobao.org/giturl not expired, no request
+439 silly addNameRange number 2 { name: 'giturl', range: '>=1.0.0 <2.0.0', hasData: true }
+440 silly addNameRange versions [ 'giturl', [ '1.0.1', '1.0.0', '0.0.3', '0.0.2', '0.0.1' ] ]
+441 silly addNamed giturl@1.0.1
+442 verbose addNamed "1.0.1" is a plain semver version for giturl
+443 info retry fetch attempt 1 at 23:20:58
+444 info attempt registry request try #1 at 23:20:58
+445 http fetch GET https://registry.npmmirror.com/cross-spawn/-/cross-spawn-0.2.9.tgz
+446 silly mapToRegistry name giturl
+447 silly mapToRegistry using default registry
+448 silly mapToRegistry registry https://registry.npm.taobao.org/
+449 silly mapToRegistry data Result {
+449 silly mapToRegistry   raw: 'giturl',
+449 silly mapToRegistry   scope: null,
+449 silly mapToRegistry   name: 'giturl',
+449 silly mapToRegistry   rawSpec: '',
+449 silly mapToRegistry   spec: 'latest',
+449 silly mapToRegistry   type: 'tag'
+449 silly mapToRegistry }
+450 silly mapToRegistry uri https://registry.npm.taobao.org/giturl
+451 verbose addRemoteTarball https://registry.npmmirror.com/giturl/-/giturl-1.0.1.tgz not in flight; adding
+452 verbose addRemoteTarball [
+452 verbose addRemoteTarball   'https://registry.npmmirror.com/giturl/-/giturl-1.0.1.tgz',
+452 verbose addRemoteTarball   '926c69bda5c48a3d8f74254e99f826835e6a4aa0'
+452 verbose addRemoteTarball ]
+453 info retry fetch attempt 1 at 23:20:58
+454 info attempt registry request try #1 at 23:20:58
+455 http fetch GET https://registry.npmmirror.com/giturl/-/giturl-1.0.1.tgz
+456 http 200 https://registry.npm.taobao.org/urllib
+457 verbose headers {
+457 verbose headers   server: 'Tengine',
+457 verbose headers   'content-type': 'application/json; charset=utf-8',
+457 verbose headers   'content-length': '66522',
+457 verbose headers   connection: 'keep-alive',
+457 verbose headers   'strict-transport-security': 'max-age=5184000',
+457 verbose headers   date: 'Wed, 07 Sep 2022 15:20:58 GMT',
+457 verbose headers   vary: 'Origin, Accept, Accept-Encoding',
+457 verbose headers   'request-id': 'ac83a2e0-2ec0-11ed-8362-ad43466562ce',
+457 verbose headers   'cache-control': 'public, max-age=300',
+457 verbose headers   'x-frame-options': 'SAMEORIGIN',
+457 verbose headers   'x-xss-protection': '1; mode=block',
+457 verbose headers   'x-content-type-options': 'nosniff',
+457 verbose headers   'x-download-options': 'noopen',
+457 verbose headers   'x-readtime': '0.81',
+457 verbose headers   via: 'cn1587.l1, kunlun7.cn1587, l2cn1837.l2, cache75.l2cn1837, npmmirror-x86-20220823002, cache75.l2cn1837[26,26,304-0,M], cache20.l2cn1837[27,0], kunlun7.cn1587[40,51,200-0,H], kunlun8.cn1587[53,0]',
+457 verbose headers   etag: 'W/"fa14d08094d33779deb786f11a67f2d0b458c048"',
+457 verbose headers   'ali-swift-global-savetime': '1662564058',
+457 verbose headers   'content-encoding': 'gzip',
+457 verbose headers   age: '0',
+457 verbose headers   'x-cache': 'HIT TCP_REFRESH_HIT dirn:6:184686878',
+457 verbose headers   'x-swift-savetime': 'Wed, 07 Sep 2022 15:20:58 GMT',
+457 verbose headers   'x-swift-cachetime': '120',
+457 verbose headers   'timing-allow-origin': '*',
+457 verbose headers   eagleid: 'dd0f411c16625640580903483e'
+457 verbose headers }
+458 silly get cb [
+458 silly get   200,
+458 silly get   {
+458 silly get     server: 'Tengine',
+458 silly get     'content-type': 'application/json; charset=utf-8',
+458 silly get     'content-length': '66522',
+458 silly get     connection: 'keep-alive',
+458 silly get     'strict-transport-security': 'max-age=5184000',
+458 silly get     date: 'Wed, 07 Sep 2022 15:20:58 GMT',
+458 silly get     vary: 'Origin, Accept, Accept-Encoding',
+458 silly get     'request-id': 'ac83a2e0-2ec0-11ed-8362-ad43466562ce',
+458 silly get     'cache-control': 'public, max-age=300',
+458 silly get     'x-frame-options': 'SAMEORIGIN',
+458 silly get     'x-xss-protection': '1; mode=block',
+458 silly get     'x-content-type-options': 'nosniff',
+458 silly get     'x-download-options': 'noopen',
+458 silly get     'x-readtime': '0.81',
+458 silly get     via: 'cn1587.l1, kunlun7.cn1587, l2cn1837.l2, cache75.l2cn1837, npmmirror-x86-20220823002, cache75.l2cn1837[26,26,304-0,M], cache20.l2cn1837[27,0], kunlun7.cn1587[40,51,200-0,H], kunlun8.cn1587[53,0]',
+458 silly get     etag: 'W/"fa14d08094d33779deb786f11a67f2d0b458c048"',
+458 silly get     'ali-swift-global-savetime': '1662564058',
+458 silly get     'content-encoding': 'gzip',
+458 silly get     age: '0',
+458 silly get     'x-cache': 'HIT TCP_REFRESH_HIT dirn:6:184686878',
+458 silly get     'x-swift-savetime': 'Wed, 07 Sep 2022 15:20:58 GMT',
+458 silly get     'x-swift-cachetime': '120',
+458 silly get     'timing-allow-origin': '*',
+458 silly get     eagleid: 'dd0f411c16625640580903483e'
+458 silly get   }
+458 silly get ]
+459 verbose get saving urllib to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npm.taobao.org\urllib\.cache.json
+460 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+461 http 200 https://registry.npm.taobao.org/npminstall
+462 verbose headers {
+462 verbose headers   server: 'Tengine',
+462 verbose headers   'content-type': 'application/json; charset=utf-8',
+462 verbose headers   'content-length': '104175',
+462 verbose headers   connection: 'keep-alive',
+462 verbose headers   'strict-transport-security': 'max-age=5184000',
+462 verbose headers   date: 'Wed, 07 Sep 2022 15:20:58 GMT',
+462 verbose headers   vary: 'Origin, Accept, Accept-Encoding',
+462 verbose headers   'request-id': 'ac81f530-2ec0-11ed-9468-a58fc1dc07fd',
+462 verbose headers   'cache-control': 'public, max-age=300',
+462 verbose headers   'x-frame-options': 'SAMEORIGIN',
+462 verbose headers   'x-xss-protection': '1; mode=block',
+462 verbose headers   'x-content-type-options': 'nosniff',
+462 verbose headers   'x-download-options': 'noopen',
+462 verbose headers   'x-readtime': '1.2',
+462 verbose headers   via: 'cn1587.l1, kunlun1.cn1587, l2cn1837.l2, cache62.l2cn1837, npmmirror-x86-001, cache62.l2cn1837[24,24,200-0,H], cache31.l2cn1837[25,0], kunlun1.cn1587[36,37,200-0,M], kunlun5.cn1587[39,0]',
+462 verbose headers   etag: 'W/"929e4657a36a8a2c5f4e2eb0bb2fcb5f4dc1f230"',
+462 verbose headers   'content-encoding': 'gzip',
+462 verbose headers   'ali-swift-global-savetime': '1662564058',
+462 verbose headers   age: '0',
+462 verbose headers   'x-cache': 'MISS TCP_MISS dirn:11:403628343',
+462 verbose headers   'x-swift-savetime': 'Wed, 07 Sep 2022 15:20:58 GMT',
+462 verbose headers   'x-swift-cachetime': '120',
+462 verbose headers   'timing-allow-origin': '*',
+462 verbose headers   eagleid: 'dd0f411916625640580953831e'
+462 verbose headers }
+463 silly get cb [
+463 silly get   200,
+463 silly get   {
+463 silly get     server: 'Tengine',
+463 silly get     'content-type': 'application/json; charset=utf-8',
+463 silly get     'content-length': '104175',
+463 silly get     connection: 'keep-alive',
+463 silly get     'strict-transport-security': 'max-age=5184000',
+463 silly get     date: 'Wed, 07 Sep 2022 15:20:58 GMT',
+463 silly get     vary: 'Origin, Accept, Accept-Encoding',
+463 silly get     'request-id': 'ac81f530-2ec0-11ed-9468-a58fc1dc07fd',
+463 silly get     'cache-control': 'public, max-age=300',
+463 silly get     'x-frame-options': 'SAMEORIGIN',
+463 silly get     'x-xss-protection': '1; mode=block',
+463 silly get     'x-content-type-options': 'nosniff',
+463 silly get     'x-download-options': 'noopen',
+463 silly get     'x-readtime': '1.2',
+463 silly get     via: 'cn1587.l1, kunlun1.cn1587, l2cn1837.l2, cache62.l2cn1837, npmmirror-x86-001, cache62.l2cn1837[24,24,200-0,H], cache31.l2cn1837[25,0], kunlun1.cn1587[36,37,200-0,M], kunlun5.cn1587[39,0]',
+463 silly get     etag: 'W/"929e4657a36a8a2c5f4e2eb0bb2fcb5f4dc1f230"',
+463 silly get     'content-encoding': 'gzip',
+463 silly get     'ali-swift-global-savetime': '1662564058',
+463 silly get     age: '0',
+463 silly get     'x-cache': 'MISS TCP_MISS dirn:11:403628343',
+463 silly get     'x-swift-savetime': 'Wed, 07 Sep 2022 15:20:58 GMT',
+463 silly get     'x-swift-cachetime': '120',
+463 silly get     'timing-allow-origin': '*',
+463 silly get     eagleid: 'dd0f411916625640580953831e'
+463 silly get   }
+463 silly get ]
+464 verbose get saving npminstall to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npm.taobao.org\npminstall\.cache.json
+465 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+466 verbose stack Error: Missing required argument #1
+466 verbose stack     at andLogAndFinish (C:\Users\Administrator\AppData\Roaming\npm\node_modules\npm\lib\fetch-package-metadata.js:31:3)
+466 verbose stack     at fetchPackageMetadata (C:\Users\Administrator\AppData\Roaming\npm\node_modules\npm\lib\fetch-package-metadata.js:51:22)
+466 verbose stack     at resolveWithNewModule (C:\Users\Administrator\AppData\Roaming\npm\node_modules\npm\lib\install\deps.js:455:12)
+466 verbose stack     at C:\Users\Administrator\AppData\Roaming\npm\node_modules\npm\lib\install\deps.js:456:7
+466 verbose stack     at C:\Users\Administrator\AppData\Roaming\npm\node_modules\npm\node_modules\iferr\index.js:13:50
+466 verbose stack     at C:\Users\Administrator\AppData\Roaming\npm\node_modules\npm\lib\fetch-package-metadata.js:37:12
+466 verbose stack     at addRequestedAndFinish (C:\Users\Administrator\AppData\Roaming\npm\node_modules\npm\lib\fetch-package-metadata.js:82:5)
+466 verbose stack     at returnAndAddMetadata (C:\Users\Administrator\AppData\Roaming\npm\node_modules\npm\lib\fetch-package-metadata.js:117:7)
+466 verbose stack     at pickVersionFromRegistryDocument (C:\Users\Administrator\AppData\Roaming\npm\node_modules\npm\lib\fetch-package-metadata.js:134:20)
+466 verbose stack     at C:\Users\Administrator\AppData\Roaming\npm\node_modules\npm\node_modules\iferr\index.js:13:50
+467 verbose cwd E:\user-wei\iot-vue\iot
+468 error Windows_NT 10.0.18363
+469 error argv "D:\\node\\node.exe" "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "cnpm" "--registry=https://registry.npm.taobao.org"
+470 error node v16.17.0
+471 error npm  v3.8.6
+472 error code EMISSINGARG
+473 error typeerror Error: Missing required argument #1
+473 error typeerror     at andLogAndFinish (C:\Users\Administrator\AppData\Roaming\npm\node_modules\npm\lib\fetch-package-metadata.js:31:3)
+473 error typeerror     at fetchPackageMetadata (C:\Users\Administrator\AppData\Roaming\npm\node_modules\npm\lib\fetch-package-metadata.js:51:22)
+473 error typeerror     at resolveWithNewModule (C:\Users\Administrator\AppData\Roaming\npm\node_modules\npm\lib\install\deps.js:455:12)
+473 error typeerror     at C:\Users\Administrator\AppData\Roaming\npm\node_modules\npm\lib\install\deps.js:456:7
+473 error typeerror     at C:\Users\Administrator\AppData\Roaming\npm\node_modules\npm\node_modules\iferr\index.js:13:50
+473 error typeerror     at C:\Users\Administrator\AppData\Roaming\npm\node_modules\npm\lib\fetch-package-metadata.js:37:12
+473 error typeerror     at addRequestedAndFinish (C:\Users\Administrator\AppData\Roaming\npm\node_modules\npm\lib\fetch-package-metadata.js:82:5)
+473 error typeerror     at returnAndAddMetadata (C:\Users\Administrator\AppData\Roaming\npm\node_modules\npm\lib\fetch-package-metadata.js:117:7)
+473 error typeerror     at pickVersionFromRegistryDocument (C:\Users\Administrator\AppData\Roaming\npm\node_modules\npm\lib\fetch-package-metadata.js:134:20)
+473 error typeerror     at C:\Users\Administrator\AppData\Roaming\npm\node_modules\npm\node_modules\iferr\index.js:13:50
+474 error typeerror This is an error with npm itself. Please report this error at:
+474 error typeerror     <http://github.com/npm/npm/issues>
+475 verbose exit [ 1, true ]
