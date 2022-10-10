@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>实名</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/mui.min.css">
+    <style>
+        .iccid {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin-bottom: 0.3rem;
+        }
+
+        .template div {
+            font-size: 0.36rem;
+        }
+
+        .template {
+            margin-top: 1rem;
+            padding: 0.5rem;
+        }
+
+        .Qr {
+            width: 4.1rem;
+            height: 4.1rem;
+            margin: 0 auto;
+        }
+
+        .Qr img {
+            width: 4.1rem;
+            height: 4.1rem;
+            margin: 0 auto;
+        }
+
+        .txt {
+            margin-bottom: 0.3rem;
+        }
+    </style>
+    <script>
+        !(function () {
+            function a() {
+                var html = document.documentElement;
+                var w = html.getBoundingClientRect().width;
+                if (w > 750) {
+                    w = 750;
+                }
+                var f = w / 7.5;
+                html.style.fontSize = f + "px";
+            }
+            a();
+            var timer;
+            window.onresize = function () {
+                clearTimeout(timer);
+                timer = setTimeout(a, 300);
+            }
+
+        })();
+    </script>
+</head>
+
+<body>
+
+    <div class="template">
+        <div class="iccid">
+            <div>ICCID:</div>
+            <div id="iccid"></div>
+        </div>
+        <div class="txt">
+            请复制ICCID号，并识别下图二维码进行实名操作
+        </div>
+        <div class="Qr">
+            <img src="./images/QRcode.png" alt="">
+        </div>
+
+
+    </div>
+    <script src="./js/jquery-2.0.0.min.js"></script>
+    <script src="./js/mui.js"></script>
+    <script src="./js/common.js"></script>
+
+    <script>
+        !(function () {
+            function a() {
+                var html = document.documentElement;
+                var w = html.getBoundingClientRect().width;
+                if (w > 750) {
+                    w = 750;
+                }
+                var f = w / 7.5;
+                html.style.fontSize = f + "px";
+            }
+            a();
+            var timer;
+            window.onresize = function () {
+                clearTimeout(timer);
+                timer = setTimeout(a, 300);
+            }
+            geticcid()
+        })();
+        function getUrlParam(name) {
+            var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+            var r = window.location.search.substr(1).match(reg);
+            if (r != null) {
+                return unescape(r[2]);
+            }
+            return null;
+        }
+
+
+        function geticcid() {
+            var transdata = {
+                userToken: window.localStorage.userToken,
+                cardno: getUrlParam("planserialno")
+            }
+
+            var res = ajaxMethod('getIccid', transdata);
+            if (res.code == '1') {
+
+                mui.alert(res.msg, '提示', '确认', '', 'div')
+
+            } else {
+                console.log(res)
+                $('#iccid').text(res.iccid)
+                // window.location.href = "./realName.html?planserialno=" + $('#cardno').val().trim();
+            }
+        }
+        $('#iccid').click(function () {
+            const input = document.createElement('input');
+            document.body.appendChild(input);
+            input.setAttribute('value', $('#iccid').text());
+            input.select();
+            if (document.execCommand('copy')) {
+                document.execCommand('copy');
+                mui.alert('复制成功', '提示', '确认', '', 'div')
+            }
+            document.body.removeChild(input);
+        })
+
+
+
+
+
+    </script>
+</body>
+
+</html>

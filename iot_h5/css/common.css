@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    font-size: 0 !important;
+    line-height: 0 !important;
+    height: 0;
+    width: 0;
+    clear: both;
+  }
+  
+  ul li,
+  ol li {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    outline: 0;
+    display: inline-block;
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  
+  input {
+    border: 0;
+    outline: 0;
+  }
+  
+  em,
+  i {
+    font-style: normal;
+  }
+  
+  img {
+    border: none;
+    outline: 0;
+  }
+  
+  html {
+    font-family: "微软雅黑";
+    width: 100%;
+  }
+  
+  body {
+    width: 100%;
+    position: relative;
+  }
+  
+  input::-webkit-input-placeholder,
+  textarea::-webkit-input-placeholder {
+    color: #666;
+    font-size: 12px;
+  }
+  
+  input:-moz-placeholder,
+  textarea:-moz-placeholder {
+    color: #666;
+    font-size: 12px;
+  }
+  
+  input::-moz-placeholder,
+  textarea::-moz-placeholder {
+    color: #666;
+    font-size: 12px;
+  }
+  
+  input:-ms-input-placeholder,
+  textarea:-ms-input-placeholder {
+    color: #666;
+    font-size: 12px;
+  }
+  
+  

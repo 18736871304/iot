@@ -1,0 +1,185 @@
+
+.btn-primary {
+    width: 100%;
+    height: 0.8rem;
+    /* background: url(../images/denglu.png) no-repeat; */
+    background: #409eff;
+    border-radius: 0.1rem;
+    background-size: 100% 100%;
+    text-align: center;
+    line-height: 0.6rem;
+    font-size: 0.45rem;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 0.06rem;
+  }
+  
+  .template {
+    display: flex;
+  }
+  
+  .my_logo {
+    width: 100%;
+    height: 0.56rem;
+  }
+  
+  .logo {
+    width: 5rem;
+    background-color: white;
+    margin:18vh auto;
+  }
+  
+  .logo-title {
+    width: 100%;
+  
+    color: #282828;
+    font-size: 0.6rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-weight: 600;
+  }
+  
+  .my_input {
+    display: flex;
+    position: relative;
+    margin-top: 0.5rem;
+    height: 0.6rem;
+  
+  }
+  
+  
+  
+  #userName,
+  #password {
+    width: 100%;
+    height: 0.52rem;
+    line-height: 0.52rem;
+    color: #979797;
+    border: none;
+    border-bottom: 1px solid rgba(191, 191, 191, 1);
+    text-indent: 0.8rem;
+    font-size: 0.32rem;
+  }
+  
+  input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+    color: #8c9297 !important;
+  }
+  
+  .input-style {
+    width: 206px;
+    line-height: 30px;
+    height: 30px;
+    border: 1px solid #8c9297;
+    border-radius: 5px;
+  }
+  
+  .icon {
+    width: 0.45rem;
+    height: 0.45rem;
+    background: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .icon1 {
+    background: url(../images/gonghao.png) no-repeat;
+    background-size: 100%;
+  }
+  
+  .icon2 {
+    background: url(../images/mima.png) no-repeat;
+    background-size: 100%;
+  }
+  
+  .error {
+    display: none;
+    width: 100%;
+    color: #F76F6F;
+    font-size: 0.25rem;
+    text-align: left;
+  
+  }
+  
+  #forgotPassword{
+    cursor: pointer;
+    text-align: center;
+    margin-top: 0.1rem;
+    font-size: 0.26rem;
+   color:#8c9297 ; 
+  }
+  
+  .topage {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.05rem;
+  }
+
+
+
+
+
+  /* 测试 */
+  
+
+.code_box {
+    height: 0.9rem;;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  border-bottom: 1px solid rgba(191, 191, 191, 1);
+}
+
+
+
+
+
+.code_box p {
+  font-size: 0.3rem;
+  font-weight: bold;
+  color: #162137;
+  width: 30%;
+}
+
+
+
+
+#code {
+  width: 100%;
+  height: 0.5rem;
+  color: #979797;
+  line-height: 0.52rem;
+  border-radius: 0.15rem;
+  text-indent: 2.5em;
+  font-size: 0.3rem;
+  margin-top: 0.08rem;
+}
+
+.code_value {
+  display: flex;
+  height: 0.58rem;
+  /* line-height: 0.52rem; */
+  border-radius: 0.15rem;
+  text-indent: 1em;
+  font-size: 0.3rem;
+  margin-top: 0.1rem;
+}
+.code_box .code_value{
+  width: 100%;
+}
+
+#code {
+  width: 75%;
+}
+
+#send {
+    width: 23%;
+    height: 0.52rem;
+    outline: 0;
+    border: 1px solid #409eff;
+    border-radius: 0.2rem;
+    background: #fff;
+    color: #409eff;
+}
